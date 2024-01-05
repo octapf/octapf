@@ -14,7 +14,7 @@
 
 - 📫 How to reach me **frangipani.octavio@gmail.com**
 
-- 📄 Know about my experiences [https://www.linkedin.com/in/octavio-frangipani-080aa947/](https://www.linkedin.com/in/octavio-frangipani-080aa947/)
+- 📄 Know about my experiences [https://www.linkedin.com/in/octaviofrangipani/](https://www.linkedin.com/in/octaviofrangipani/)
 
 - ⚡ Fun fact **I can mix anything you got in your kitchen and make something delicious!**
 
