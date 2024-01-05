@@ -21,7 +21,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://dev.to/octapf" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="octapf" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/octavio-frangipani-080aa947" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="octavio-frangipani-080aa947" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/octaviofrangipani" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="octaviofrangipani" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
