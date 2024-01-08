@@ -8,13 +8,13 @@
 
 - 🌱 I’m currently learning **Jest, CI/CD, Microservices**
 
-- 👨‍💻 All of my projects are available at [https://github.com/octapf](https://github.com/octapf)
+- 👨‍💻 All of my projects are available at [Github - @octapf](https://github.com/octapf)
 
 - 💬 Ask me about **React, Typescript, Node**
 
 - 📫 How to reach me **frangipani.octavio@gmail.com**
 
-- 📄 Know about my experiences [https://www.linkedin.com/in/octaviofrangipani/](https://www.linkedin.com/in/octaviofrangipani/)
+- 📄 Know about my experiences [Linkedin - @octaviofrangipani](https://www.linkedin.com/in/octaviofrangipani/)
 
 - ⚡ Fun fact **I can mix anything you got in your kitchen and make something delicious!**
 
