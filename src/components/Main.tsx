@@ -61,8 +61,13 @@ const Main = () => {
 							</a>
 						</p>
 						<p>
-							<em className='fas fa-phone'></em>{' '}
-							<a href='tel:+34722696514'>+34 722 69 65 14</a>
+							<em className='fa-brands fa-whatsapp'></em>{' '}
+							<a
+								href='https://wa.me/34722696514'
+								target='_blank'
+							>
+								+34 722 69 65 14
+							</a>
 						</p>
 
 						<p>
