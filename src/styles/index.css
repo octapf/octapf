@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
-
+html {
+	scroll-behavior: smooth;
+}
 :root {
 	--header-text-color: #eeeeee;
 	--header-container-color: #222831;
@@ -9,6 +11,10 @@
 	--header-darker-color: #1e2229;
 	--header-darker-hover-color: #14171b;
 	--header-title-color: #00adb5;
+	--logo-color: var(--sample-color2);
+	--sample-color1: #00adb5;
+	--sample-color2: #278cff;
+
 	--text-color: rgb(236, 236, 236);
 	--body-color: #5026a7;
 	--container-color: #8d448b;
@@ -26,7 +32,7 @@ body {
 }
 
 i {
-	color: var(--header-title-color);
+	color: var(--logo-color);
 }
 a {
 	text-decoration: none;
@@ -51,7 +57,7 @@ ul {
 }
 
 .sky {
-	color: var(--header-title-color);
+	color: var(--logo-color);
 }
 
 .darker {
@@ -77,7 +83,16 @@ ul {
 }
 
 .bgc-sky {
-	background-color: var(--header-title-color);
+	background-color: var(--logo-color);
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 7rem;
+	padding: 15rem 0 0 0;
+	/* border: 1px solid red; */
 }
 
 /* HEAEDER */
@@ -129,7 +144,7 @@ ul {
 }
 
 .navbar-flex {
-	color: var(--header-title-color);
+	color: var(--logo-color);
 	font-family: 'Poiret One', cursive;
 	justify-content: space-between;
 	display: flex;
@@ -146,7 +161,7 @@ ul {
 	display: inline;
 	font-weight: 100;
 	font-size: 2.5rem;
-	color: var(--header-title-color);
+	color: var(--logo-color);
 }
 
 .logo h2 {
@@ -342,11 +357,11 @@ ul {
 
 .main-container-cv a {
 	text-decoration: none;
-	color: var(--header-title-color);
+	color: var(--logo-color);
 	padding: 0.31em 0;
 }
 .main-container-cv spam {
-	color: var(--header-title-color);
+	color: var(--logo-color);
 }
 .main-container-cv li {
 	padding: 0.3em 0;
@@ -380,11 +395,11 @@ ul {
 
 .main-info-cv a {
 	text-decoration: none;
-	color: var(--header-title-color);
+	color: var(--logo-color);
 	padding: 0.31em 0;
 }
 .main-info-cv spam {
-	color: var(--header-title-color);
+	color: var(--logo-color);
 }
 .main-info-cv li {
 	padding: 0.3em 0;
@@ -427,7 +442,7 @@ ul {
 .info-cv a {
 	font-family: 'Maven Pro', sans-serif;
 	letter-spacing: 0.012em;
-	color: var(--header-title-color);
+	color: var(--logo-color);
 }
 
 .foto-perfil-cv {
@@ -484,8 +499,8 @@ ul {
 	border-radius: 0.7rem;
 	padding: 0.5rem;
 	background-color: var(--header-darker-color);
-	color: var(--box-color);
-	border: 1px solid var(--box-color);
+	color: var(--logo-color);
+	border: 1px solid var(--logo-color);
 	margin-right: 2rem;
 }
 
@@ -574,7 +589,7 @@ select:focus {
 		font-weight: 100;
 		font-size: 2rem;
 		letter-spacing: 0.1em;
-		color: var(--header-title-color);
+		color: var(--logo-color);
 	}
 
 	.logo small {

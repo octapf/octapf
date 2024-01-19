@@ -19,7 +19,12 @@ const Header = () => {
 			className='header logo'
 		>
 			<Container type='header-container'>
-				<h2 className='pady1'>Octavio Frangipani</h2>
+				<h2
+					id='header'
+					className='pady1'
+				>
+					Octavio Frangipani
+				</h2>
 				<select
 					className='language-select'
 					value={selectedValue}
