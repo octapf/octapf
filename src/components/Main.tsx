@@ -90,7 +90,7 @@ const Main = () => {
 							</a>
 						</p>
 						<p>
-							<em className='fa-solid fa-check'></em> <a>{t('work-permit')}</a>
+							<em className='fa-solid fa-passport'></em> <a>{t('passport')}</a>
 						</p>
 						<p>
 							<em className='fa-solid fa-language'></em> <a>{t('language')}</a>
@@ -110,13 +110,14 @@ const Main = () => {
 				<article className='info-cv'>
 					<p>
 						{t('about-1')}
-						<i>{t('full-stack-developer')}</i>
+						<i>{t('years-experience')}</i>
 						{t('about-2')}
-						<i> {t('enthusiastic, self-motivated,reliable, responsible')} </i>
+						<i> {t('6 years of experience in the Ecommerce industry')} </i>
 						{t('about-3')}
-						<i> {t('team worker')} </i>
+						<i> {t('80% frontend and 20% backend')} </i>
 						{t('about-4')}
-						<i>{t('work under pressure')}</i> {t('about-5')}
+						<i>{t('professional photographer for 6 years')}</i> {t('about-5')}{' '}
+						<i>{t('proactive, ambitious and entrepreneurial.')}</i>
 					</p>
 				</article>
 			</section>
