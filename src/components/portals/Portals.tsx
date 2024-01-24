@@ -1,6 +1,7 @@
 import { Container, Portal } from '..'
 import styles from './portals.module.css'
 import lgvLogo from '../../assets/lgv-logo-cuadrado.svg'
+import itaLogo from '../../assets/it-logo.svg'
 
 export const Portals = () => {
 	return (
@@ -20,8 +21,11 @@ export const Portals = () => {
 					description='A game development company'
 				/>
 				<Portal
-					src={'/cv'}
-					title='My online CV'
+					propStyles={styles.ita}
+					image={itaLogo}
+					src={'https://dev.itawiki.eurecatacademy.org/'}
+					title='ITA Wiki'
+					description='Barcelona Activa'
 				/>
 			</Container>
 		</Container>

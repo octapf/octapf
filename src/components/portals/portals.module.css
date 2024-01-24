@@ -7,10 +7,15 @@
 .lgv {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
-	color: var(--lgv-color-text-lighter) !important;
+	color: var(--lgv-color-text) !important;
 }
 
 .lgv img {
+	width: 90%;
+	height: 90%;
+}
+
+.ita img {
 	width: 90%;
 	height: 90%;
 }
