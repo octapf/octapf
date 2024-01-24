@@ -1,7 +1,7 @@
 import logo from '../../assets/frangipanidev-invert-logo.png'
 import styles from './hero.module.css'
 
-const Hero = () => {
+export const Hero = () => {
 	return (
 		<div className={styles.container}>
 			<div className={styles['logo-container']}>
@@ -21,5 +21,3 @@ const Hero = () => {
 		</div>
 	)
 }
-
-export default Hero

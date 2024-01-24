@@ -1,9 +1,9 @@
 import { useTranslation } from 'react-i18next'
-import Container from './Container'
+import { Container } from '../../../components'
 import { useState } from 'react'
-import i18n from '../i18n'
+import i18n from '../../../i18n'
 
-const Header = () => {
+export const Header = () => {
 	const [selectedValue, setSelectedValue] = useState('EN')
 	const { t } = useTranslation()
 	console.log(selectedValue)
@@ -38,5 +38,3 @@ const Header = () => {
 		</header>
 	)
 }
-
-export default Header

@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
-import { capitalize } from '../utils/capitalize'
+import { capitalize } from '../../../utils/capitalize'
 
-const Main = () => {
+export const Main = () => {
 	const fechaInicio = new Date('2023-02-01').getTime()
 	const fechaFin = new Date().getTime()
 
@@ -567,5 +567,3 @@ const Main = () => {
 		</main>
 	)
 }
-
-export default Main

@@ -14,6 +14,7 @@ html {
 	--logo-color: var(--sample-color2);
 	--sample-color1: #00adb5;
 	--sample-color2: #278cff;
+	--sample-color3: #2274d1;
 
 	--text-color: rgb(236, 236, 236);
 	--body-color: #5026a7;
@@ -21,6 +22,11 @@ html {
 	--box-color: #cc6a87;
 	--border-color: #eccd8f;
 	--color-hover-btn: rgba(255, 255, 255, 0.4);
+
+	--lgv-color-text: #2aa048;
+	--lgv-color-text-lighter: #1dab1f;
+	--lgv-color-text2: #6b2aa0;
+	--lgv-color-mainbackground: #15171c;
 }
 
 * {
@@ -514,6 +520,26 @@ select:focus {
 
 .app-container {
 	background-color: var(--header-container-color);
+}
+.cv-container {
+	background-color: var(--header-container-color);
+}
+
+.flex-row-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 5rem 0;
+	margin: 0;
+}
+
+.flex-column-container {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-content: center;
+	padding: 5rem 0;
+	margin: 0;
 }
 
 @media screen and (max-width: 75em) {

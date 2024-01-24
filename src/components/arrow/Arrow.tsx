@@ -1,6 +1,6 @@
 import styles from './arrow.module.css'
 
-const Arrow = () => {
+export const Arrow = () => {
 	return (
 		<div className={styles.container}>
 			<a href='#header'>
@@ -9,5 +9,3 @@ const Arrow = () => {
 		</div>
 	)
 }
-
-export default Arrow
