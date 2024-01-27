@@ -35,7 +35,9 @@ export const Portal = ({
 				)}
 				{supertitle && <h1>{supertitle}</h1>}
 				{title && <h2>{title}</h2>}
-				<small>{description}</small>
+				<strong>
+					<small>{description}</small>
+				</strong>
 			</Container>
 		</Link>
 	)

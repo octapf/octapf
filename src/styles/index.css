@@ -15,17 +15,26 @@ html {
 	--sample-color1: #00adb5;
 	--sample-color2: #278cff;
 	--sample-color3: #2274d1;
+	--sample-color4: #d17f22;
 
-	--text-color: rgb(236, 236, 236);
+	--text-color: #ececec;
 	--body-color: #5026a7;
 	--container-color: #8d448b;
 	--box-color: #cc6a87;
 	--border-color: #eccd8f;
-	--color-hover-btn: rgba(255, 255, 255, 0.4);
+	--color-hover-btn: #c0c0c0;
+
+	--frangipanidev-primary: #278cff;
+	--frangipanidev-primaryDark: #2274d1;
+	--frangipanidev-secondary: #d17f22;
+
+	--ita-primary: #b91879;
+	--ita-primaryDark: #811155;
+	--ita-primaryLight: #ce5da1;
 
 	--lgv-color-text: #2aa048;
 	--lgv-color-text-lighter: #1dab1f;
-	--lgv-color-text2: #6b2aa0;
+	--lgv-color-text2: #8736ca;
 	--lgv-color-mainbackground: #15171c;
 }
 
