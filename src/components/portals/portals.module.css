@@ -6,7 +6,14 @@
 	align-content: center;
 	justify-content: center;
 	column-gap: 5rem;
-	padding: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section {
+	background-color: var(--header-element-color-trans);
+}
+.section2 {
+	background-color: var(--header-darker-hover-color-trans);
 }
 
 .title {
