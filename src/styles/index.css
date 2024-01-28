@@ -50,6 +50,7 @@ html {
 }
 body {
 	box-sizing: border-box;
+	background-color: var(--header-container-color);
 }
 
 i {
@@ -113,6 +114,15 @@ ul {
 	justify-content: center;
 	column-gap: 7rem;
 	padding: 15rem 0 0 0;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
 }
 
 /* HEAEDER */
@@ -541,8 +551,8 @@ select:focus {
 	outline: none;
 }
 
-/* .app-container { */
-/* } */
+.app-container {
+}
 
 .bg {
 	animation: slide 5s infinite alternate ease-in-out;
@@ -581,6 +591,12 @@ select:focus {
 
 .cv-container {
 	background-color: var(--header-container-color);
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
 }
 
 .flex-row-container {

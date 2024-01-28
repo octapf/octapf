@@ -15,7 +15,7 @@ export const Main = () => {
 	const actualJobDuration = Math.ceil(diff / (1000 * 60 * 60 * 24 * 30))
 
 	return (
-		<main>
+		<main className='main-container'>
 			<section className='main-info-cv'>
 				<div className='flex-row-maininfo'>
 					<div>
