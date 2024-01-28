@@ -17,7 +17,7 @@ export const Main = () => {
 	return (
 		<main>
 			<section className='main-info-cv'>
-				<div className='flex-row-container'>
+				<div className='flex-row-maininfo'>
 					<div>
 						<img
 							className='foto-perfil-cv'
@@ -129,7 +129,7 @@ export const Main = () => {
 						{t('about-2')}
 						<i> {t('6 years of experience in the Ecommerce industry')} </i>
 						{t('about-3')}
-						<i> {t('80% frontend and 20% backend')} </i>
+						<i> {t('balance')} </i>
 						{t('about-4')}
 						<i>{t('professional photographer for 6 years')}</i> {t('about-5')}{' '}
 						<i>{t('proactive, ambitious and entrepreneurial.')}</i>
@@ -138,7 +138,10 @@ export const Main = () => {
 			</section>
 
 			<main className='main-container-cv'>
-				<section id='working-experience'>
+				<section
+					id='working-experience'
+					className='flex-section'
+				>
 					<h4 className='mary1'>
 						{t('experience')}{' '}
 						<a href='#header'>
@@ -148,7 +151,7 @@ export const Main = () => {
 							></em>
 						</a>
 					</h4>
-					<div className='grid300'>
+					<div className='flex-row-container'>
 						<article className='article-cv'>
 							<h5>
 								Full Stack Web {t('developer')} {t('at')}{' '}
@@ -285,43 +288,12 @@ export const Main = () => {
 								<br />
 							</small>
 						</article>
-						{/* <article className='article-cv'>
-							<h5>
-								Head of Photography at{' '}
-								<a href='http://www.sodimac.com/' target='_blank'>
-									Sodimac
-								</a>
-							</h5>
-							<p>
-								November 2013 - April 2019 (5.7 years)<br />
-								<small>Buenos Aires, Argentina (On-site)</small>
-							</p>
-
-							<small>
-								Knowledge of HTML/CSS/JS applied in landings and email marketing
-								<br />
-								Knowledge of SQL Databases for content info consultancies
-								<br />
-								Intermediate MS Excel level
-								<br />
-								Photography and Video production on E-commerce sector at
-								multinational retail company
-								<br />
-								Manage products/photography studio logistics
-								<br />
-								Manage digital content edition
-								<br />
-								Team leader of production (12 people) - Buenos Aires & Uruguay
-								<br />
-								Administrate content of over 47.000 products online-published
-								<br />
-								Design/Production of monthly catalogue
-								<br />
-							</small>
-						</article> */}
 					</div>
 				</section>
-				<section id='education'>
+				<section
+					id='education'
+					className='flex-section'
+				>
 					<h4 className='mary1'>
 						{t('education')}{' '}
 						<a href='#header'>
@@ -331,7 +303,7 @@ export const Main = () => {
 							></em>
 						</a>
 					</h4>
-					<div className='grid300'>
+					<div className='flex-row-container'>
 						<article className='article-cv'>
 							<h5>
 								Full Stack Web {t('developer')} {t('at')}{' '}
@@ -475,7 +447,10 @@ export const Main = () => {
 					</div>
 				</section>
 
-				<section id='skills'>
+				<section
+					id='skills'
+					className='flex-section'
+				>
 					<h4 className='mary1'>
 						{t('Skills')}{' '}
 						<a href='#header'>
@@ -485,7 +460,7 @@ export const Main = () => {
 							></em>
 						</a>
 					</h4>
-					<div className='grid120'>
+					<div className='flex-row-skills'>
 						<article className='article-cv'>
 							<p>
 								<em

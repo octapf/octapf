@@ -33,7 +33,7 @@ export const Header = () => {
 				</Link>
 				<h2
 					id='header'
-					className='pady1'
+					className={`title-name pady1`}
 				>
 					Octavio Frangipani
 				</h2>
@@ -46,7 +46,7 @@ export const Header = () => {
 					<option value={'es'}>ES</option>
 				</select>
 			</Container>
-			<h6>{t('full-stack-developer')}</h6>
+			<h6 className='subtitle-name'>{t('full-stack-developer')}</h6>
 		</header>
 	)
 }
