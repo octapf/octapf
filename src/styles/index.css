@@ -125,6 +125,15 @@ ul {
 	justify-items: center;
 }
 
+.header-flex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+}
+
 /* HEAEDER */
 .header {
 	text-align: center;
@@ -409,6 +418,12 @@ ul {
 }
 
 .main-info-cv {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
 	font-family: 'Maven Pro', sans-serif;
 	color: var(--color-hover-btn);
 	letter-spacing: 0.012em;
@@ -762,7 +777,7 @@ select:focus {
 
 @media screen and (max-width: 40em) {
 	:root {
-		font-size: 1.2rem;
+		font-size: 0.85rem;
 	}
 
 	.logo {
@@ -833,17 +848,18 @@ select:focus {
 	.flex-row-skills {
 		display: flex;
 		flex-wrap: wrap;
-		row-gap: 1rem;
-		column-gap: 1rem;
+		row-gap: 0.5rem;
+		column-gap: 0.5rem;
 		align-items: center;
 		align-content: center;
 		justify-content: center;
 		justify-items: center;
 		padding-bottom: 2rem;
+		width: 80%;
 	}
 
 	.flex-row-skills article {
-		width: 5.5rem;
+		width: 7rem;
 	}
 
 	.flex-row-maininfo {
