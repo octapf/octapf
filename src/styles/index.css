@@ -388,7 +388,7 @@ ul {
 	color: var(--logo-color);
 	padding: 0.31em 0;
 }
-.main-container-cv spam {
+.main-container-cv span {
 	color: var(--logo-color);
 }
 .main-container-cv li {
@@ -426,7 +426,7 @@ ul {
 	color: var(--logo-color);
 	padding: 0.31em 0;
 }
-.main-info-cv spam {
+.main-info-cv span {
 	color: var(--logo-color);
 }
 .main-info-cv li {
@@ -538,11 +538,12 @@ select:focus {
 	outline: none;
 }
 
-.app-container {
-}
+/* .app-container { */
+/* } */
 
 .bg {
-	animation: slide 5s ease-in-out infinite alternate;
+	animation: slide 5s infinite alternate ease-in-out;
+	animation-iteration-count: infinite;
 	background-image: linear-gradient(
 		-60deg,
 		var(--header-darker-hover-color) 50%,
