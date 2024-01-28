@@ -1,3 +1,18 @@
+.multiportal {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: start;
+	border-radius: 1rem;
+	row-gap: 1rem;
+	width: 7rem;
+	height: 7rem;
+	color: var(--sample-color3);
+	transition: 0.3s;
+	font-size: 0.8rem;
+}
+
 .portal {
 	display: flex;
 	flex-direction: column;

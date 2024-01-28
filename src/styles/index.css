@@ -107,7 +107,6 @@ ul {
 	justify-content: center;
 	column-gap: 7rem;
 	padding: 15rem 0 0 0;
-	/* border: 1px solid red; */
 }
 
 /* HEAEDER */
@@ -116,6 +115,10 @@ ul {
 	font-family: 'Poiret One', cursive;
 }
 
+.qrcode {
+	padding-top: 0.8rem;
+	width: 100px;
+}
 /* SCROLL BAR */
 
 /* width */
@@ -255,10 +258,10 @@ ul {
 }
 
 .grid300 {
-	justify-items: stretch;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	gap: 2em;
+	justify-content: center;
 }
 
 .grid120 {
@@ -267,6 +270,10 @@ ul {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
 	gap: 1em;
+}
+
+.qrcode-frangipanidev {
+	width: 150px;
 }
 
 .width30 {
@@ -444,7 +451,6 @@ ul {
 	justify-self: flex-start;
 	padding: 2em;
 	border-radius: 0.62em;
-	letter-spacing: 0.01em;
 	line-height: 1.5em;
 	transition: 0.3s;
 }
@@ -462,14 +468,13 @@ ul {
 
 .foto-perfil-cv {
 	border-radius: 0.62em;
-	justify-self: flex-end;
-	width: 60%;
+	width: 290px;
 	transition: 0.3s;
 }
 
 .foto-perfil-cv:hover {
 	transition: 0.3s;
-	width: 65%;
+	width: 300px;
 }
 
 .division {
@@ -549,6 +554,14 @@ select:focus {
 	align-content: center;
 	padding: 5rem 0;
 	margin: 0;
+}
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	row-gap: 1rem;
 }
 
 @media screen and (max-width: 75em) {

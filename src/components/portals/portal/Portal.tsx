@@ -3,7 +3,8 @@ import { Container } from '../..'
 import styles from './portal.module.css'
 
 type TPortal = {
-	src: string
+	multiPortal?: boolean
+	src?: string
 	title?: string
 	supertitle?: string
 	description?: string
@@ -12,6 +13,7 @@ type TPortal = {
 }
 
 export const Portal = ({
+	multiPortal,
 	propStyles,
 	src,
 	title,
@@ -20,25 +22,52 @@ export const Portal = ({
 	image,
 }: TPortal) => {
 	return (
-		<Link
-			to={src}
-			target='_blank'
-			rel='noopener noreferrer'
-		>
-			<Container type={`${styles.portal} ${propStyles}`}>
-				{image && (
-					<img
-						className={styles['portal-image']}
-						src={image}
-						alt={title}
-					/>
-				)}
-				{supertitle && <h1>{supertitle}</h1>}
-				{title && <h2>{title}</h2>}
-				<strong>
-					<small>{description}</small>
-				</strong>
-			</Container>
-		</Link>
+		<>
+			{src ? (
+				<Link
+					to={src}
+					target='_blank'
+					rel='noopener noreferrer'
+				>
+					<Container
+						type={`${
+							multiPortal ? styles.multiportal : styles.portal
+						} ${propStyles}`}
+					>
+						{image && (
+							<img
+								className={styles['portal-image']}
+								src={image}
+								alt={title}
+							/>
+						)}
+						{supertitle && <h1>{supertitle}</h1>}
+						{title && <h2>{title}</h2>}
+						<strong>
+							<small>{description}</small>
+						</strong>
+					</Container>
+				</Link>
+			) : (
+				<Container
+					type={`${
+						multiPortal ? styles.multiportal : styles.portal
+					} ${propStyles}`}
+				>
+					{image && (
+						<img
+							className={styles['portal-image']}
+							src={image}
+							alt={title}
+						/>
+					)}
+					{supertitle && <h1>{supertitle}</h1>}
+					{title && <h2>{title}</h2>}
+					<strong>
+						<small>{description}</small>
+					</strong>
+				</Container>
+			)}
+		</>
 	)
 }

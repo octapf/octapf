@@ -1,8 +1,14 @@
 import { Container, Portal } from '..'
 import styles from './portals.module.css'
-import lgvLogo from '../../assets/lgv-logo-cuadrado.svg'
-import itaLogo from '../../assets/it-logo.svg'
-import frangipaniDevLogo from '../../assets/frangipanidev-logo-cuadrado.svg'
+import {
+	itaLogo,
+	frangipaniDevLogo,
+	lgvLogo,
+	qrcode_frangipani,
+	qrcode_github_lgv,
+	qrcode_github_octapf,
+	qrcode_linkedin_octaviofrangipani,
+} from '../../styles/assets'
 
 export const Portals = () => {
 	return (
@@ -51,6 +57,40 @@ export const Portals = () => {
 					src={'https://dev.itawiki.eurecatacademy.org/'}
 					title='ITA Wiki'
 					description='Barcelona Activa'
+				/>
+			</Container>
+			<h1
+				id='portals'
+				className={styles.title}
+			>
+				QR codes 📷
+			</h1>
+			<Container type={`${styles.multiportalContainer}`}>
+				<Portal
+					multiPortal={true}
+					propStyles={styles.qrcode}
+					image={qrcode_frangipani}
+					description='frangipani.dev'
+				/>
+
+				<Portal
+					multiPortal={true}
+					propStyles={styles.qrcode}
+					image={qrcode_github_lgv}
+					description='La garita Verde - Github'
+				/>
+
+				<Portal
+					multiPortal={true}
+					propStyles={styles.qrcode}
+					image={qrcode_linkedin_octaviofrangipani}
+					description='Octavio Frangipani Linkedin'
+				/>
+				<Portal
+					multiPortal={true}
+					propStyles={styles.qrcode}
+					image={qrcode_github_octapf}
+					description='frangipani.dev - Github'
 				/>
 			</Container>
 		</Container>

@@ -1,5 +1,8 @@
 import { useTranslation } from 'react-i18next'
 import { capitalize } from '../../../utils/capitalize'
+import profilePic from '../../../assets/octavio-frangipani.jpg'
+import QRcodeFrangipanidev from '../../../assets/QR-code-frangipanidev.svg'
+import { expressLogo, reduxLogo } from '../../../styles/assets'
 
 export const Main = () => {
 	const fechaInicio = new Date('2023-02-01').getTime()
@@ -14,12 +17,14 @@ export const Main = () => {
 	return (
 		<main>
 			<section className='main-info-cv'>
-				<div className='grid300 centered'>
-					<img
-						className='foto-perfil-cv'
-						src={'./octavio-frangipani.jpg'}
-						alt='foto perfil'
-					/>
+				<div className='flex-row-container'>
+					<div>
+						<img
+							className='foto-perfil-cv'
+							src={profilePic}
+							alt='foto perfil'
+						/>
+					</div>
 
 					<article className='info-cv'>
 						<h1>
@@ -51,9 +56,13 @@ export const Main = () => {
 								id='git-icon'
 								className='fa-brands fa-git-alt'
 							></em>{' '}
-							{/* <em id='python-icon' className='fa-brands fa-python'></em>{' '} */}
 						</h1>
-						<p>{t('city')}</p>
+						<img
+							className='qrcode'
+							src={QRcodeFrangipanidev}
+							alt='foto perfil'
+						/>
+						<p>{t('city')} </p>
 						<p>
 							<em className='fas fa-envelope'></em>{' '}
 							<a href='mailto:frangipani.octavio@gmail.com'>
@@ -100,6 +109,7 @@ export const Main = () => {
 						<p>
 							<em className='fa-solid fa-language'></em> <a>{t('language')}</a>
 						</p>
+
 						<p>{t('summary')}</p>
 					</article>
 				</div>
@@ -523,22 +533,42 @@ export const Main = () => {
 						</article>
 						<article className='article-cv'>
 							<p>
+								<img
+									src={reduxLogo}
+									alt='redux-logo'
+									width={15}
+								/>{' '}
 								<strong>REDUX</strong>
 							</p>
 						</article>
 						<article className='article-cv'>
 							<p>
+								<img
+									src='https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg'
+									alt='typescript-logo'
+									width={15}
+								/>{' '}
 								<strong>TypeScript</strong>
 							</p>
 						</article>
 
 						<article className='article-cv'>
 							<p>
+								<img
+									src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Mongodb-icon.svg/64px-Mongodb-icon.svg.png'
+									alt='typescript-logo'
+									width={15}
+								/>{' '}
 								<strong>MongoDB</strong>
 							</p>
 						</article>
 						<article className='article-cv'>
 							<p>
+								<img
+									src={expressLogo}
+									alt='express-logo'
+									width={15}
+								/>{' '}
 								<strong>Express.js</strong>
 							</p>
 						</article>

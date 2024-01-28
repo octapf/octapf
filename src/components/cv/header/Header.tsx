@@ -2,6 +2,8 @@ import { useTranslation } from 'react-i18next'
 import { Container } from '../../../components'
 import { useState } from 'react'
 import i18n from '../../../i18n'
+import { frangipaniDevLogo } from '../../../styles/assets'
+import { Link } from 'react-router-dom'
 
 export const Header = () => {
 	const [selectedValue, setSelectedValue] = useState('EN')
@@ -19,6 +21,16 @@ export const Header = () => {
 			className='header logo'
 		>
 			<Container type='header-container'>
+				<Link to={'/'}>
+					<div>
+						<img
+							src={frangipaniDevLogo}
+							alt='frangipanidev-logo'
+							width={50}
+							style={{ marginLeft: '15px' }}
+						/>
+					</div>
+				</Link>
 				<h2
 					id='header'
 					className='pady1'
