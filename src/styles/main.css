@@ -599,6 +599,8 @@ ul {
 .about {
 	color: var(--header-text-color);
 	background-color: var(--header-darker-color);
+	display: flex;
+	justify-content: center;
 	margin: 0;
 	padding: 1em;
 	border-radius: 0.62em;
