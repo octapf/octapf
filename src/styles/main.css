@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
-html {
-	scroll-behavior: smooth;
-}
 
 :root {
 	--header-text-color: #eeeeee;
@@ -39,15 +36,19 @@ html {
 	--lgv-color-text2-trans: #8736ca92;
 	--lgv-color-mainbackground: #15171c;
 
-	--MAX-WIDTH: 68dvw;
+	--MAX-WIDTH-DESKTOP-HTML: 95dvw;
+	--MAX-WIDTH-TABLET-HTML: ;
+	--MAX-WIDTH-PHONE-HTML: ;
+
+	--MAX-WIDTH: 90dvw;
 	--MAX-TABLET-WIDTH: 95dvw;
 	--MAX-PHONE-WIDTH: 90dvw;
 
-	--MAX-WIDTH-INFO-CV: 50dvw;
+	--MAX-WIDTH-INFO-CV: 48dvw;
 	--MAX-WIDTH-TABLET-INFO-CV: 80dvw;
 	--MAX-WIDTH-PHONE-INFO-CV: 80dvw;
 
-	--MAX-WIDTH-ABOUT: 68dvw;
+	--MAX-WIDTH-ABOUT: 67dvw;
 	--MAX-WIDTH-TABLET-ABOUT: 80dvw;
 	--MAX-WIDTH-PHONE-ABOUT: 80dvw;
 
@@ -58,6 +59,10 @@ html {
 	--MAX-WIDTH-FOTO-PERFIL: 16dvw;
 	--MAX-TABLET-WIDTH-FOTO-PERFIL: 20dvw;
 	--MAX-PHONE-WIDTH-FOTO-PERFIL: 30dvw;
+
+	--MAX-WIDTH-DESKTOP-SKILL-SECTION: 67dvw;
+	--MAX-WIDTH-TABLET-SKILL-SECTION: 80dvw;
+	--MAX-WIDTH-PHONE-SKILL-SECTION: 80dvw;
 
 	--MIN-WIDTH-DESKTOP-SKILLS: 7dvw;
 	--MAX-WIDTH-DESKTOP-SKILLS: 8dvw;
@@ -79,16 +84,16 @@ html {
 	padding: 0;
 	margin: 0;
 }
+html {
+	scroll-behavior: smooth;
+	width: var(--MAX-WIDTH-DESKTOP-HTML);
+	margin: 0 auto;
+	padding: 0;
+}
 
 body {
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	background-color: var(--header-container-color);
-	display: flex;
-	align-items: center;
-	align-content: center;
-	justify-content: center;
-	justify-items: center;
 }
 
 i {
@@ -162,22 +167,13 @@ ul {
 }
 
 .main-container {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
 	flex-direction: column;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
-	-ms-flex-line-pack: center;
 	align-content: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
 	justify-content: center;
 	justify-items: center;
+	width: var(--MAX-WIDTH);
 }
 
 .header-flex {
@@ -516,20 +512,10 @@ ul {
 }
 
 .main-info-cv {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
 	flex-direction: column;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
-	-ms-flex-line-pack: center;
 	align-content: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
 	justify-content: center;
 	justify-items: center;
 	font-family: 'Maven Pro', sans-serif;
@@ -537,7 +523,6 @@ ul {
 	letter-spacing: 0.012em;
 	padding-top: 2em;
 	width: var(--MAX-WIDTH);
-	margin: 0 auto;
 }
 
 .main-info-cv p {
@@ -615,11 +600,15 @@ ul {
 .about {
 	color: var(--header-text-color);
 	background-color: var(--header-darker-color);
+	margin: 0;
 	padding: 1em;
 	border-radius: 0.62em;
 	line-height: 1.5em;
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
+}
+
+.about p {
 	width: var(--MAX-WIDTH-ABOUT);
 }
 
@@ -766,17 +755,7 @@ select:focus {
 	}
 }
 .cv-container {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	-ms-flex-line-pack: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-
+	border: 1px solid yellow;
 	background-color: var(--header-container-color);
 	display: flex;
 	flex-direction: column;
@@ -785,7 +764,6 @@ select:focus {
 	justify-content: center;
 	justify-items: center;
 	width: var(--MAX-WIDTH);
-	margin: 0 auto;
 }
 
 .flex-row-container {
@@ -880,7 +858,7 @@ select:focus {
 	justify-content: center;
 	justify-items: center;
 	padding-bottom: 2rem;
-	width: var(--MAX-WIDTH);
+	width: var(--MAX-WIDTH-DESKTOP-SKILL-SECTION);
 }
 
 .flex-row-skills article {
@@ -1003,6 +981,16 @@ select:focus {
 		width: var(--MAX-TABLET-WIDTH);
 	}
 
+	.main-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		justify-items: center;
+		width: var(--MAX-TABLET-WIDTH);
+	}
+
 	.logo {
 		text-align: center;
 	}
@@ -1101,7 +1089,7 @@ select:focus {
 		justify-content: center;
 		justify-items: center;
 		padding-bottom: 2rem;
-		width: var(--MAX-TABLET-WIDTH);
+		width: var(--MAX-WIDTH-TABLET-SKILL-SECTION);
 	}
 	.flex-row-skills article {
 		min-width: var(--MIN-WIDTH-TABLET-SKILLS);
@@ -1346,7 +1334,7 @@ select:focus {
 		justify-content: center;
 		justify-items: center;
 		padding-bottom: 2rem;
-		width: var(--ARTICLE-CV-PHONE-WIDTH);
+		width: var(--MAX-WIDTH-PHONE-SKILL-SECTION);
 	}
 	.flex-row-skills article {
 		min-width: var(--MIN-WIDTH-PHONE-SKILLS);
@@ -1378,12 +1366,19 @@ select:focus {
 		justify-content: center;
 		row-gap: 1rem;
 	}
+	.main-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		justify-items: center;
+		width: var(--MAX-PHONE-WIDTH);
+	}
 	.main-info-cv {
 		font-family: 'Maven Pro', sans-serif;
 		color: var(--color-hover-btn);
 		letter-spacing: 0.012em;
 		padding-top: 2em;
-		width: 80%;
-		margin: 0 auto;
 	}
 }
