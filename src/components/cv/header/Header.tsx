@@ -27,13 +27,12 @@ export const Header = () => {
 							src={frangipaniDevLogo}
 							alt='frangipanidev-logo'
 							width={50}
-							style={{ marginLeft: '15px' }}
 						/>
 					</div>
 				</Link>
 				<h2
 					id='header'
-					className={`title-name pady1`}
+					className='title-name pady1'
 				>
 					Octavio Frangipani
 				</h2>

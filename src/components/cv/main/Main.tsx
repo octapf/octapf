@@ -122,7 +122,7 @@ export const Main = () => {
 						></em>
 					</a>
 				</h4>
-				<article className='info-cv'>
+				<article className='about'>
 					<p>
 						{t('about-1')}
 						<i>{t('years-experience')}</i>
