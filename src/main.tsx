@@ -4,7 +4,7 @@ import App from './App.tsx'
 import { Cv } from './components/cv/Cv.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './i18n'
-import './styles/index.css'
+import './styles/main.css'
 import { Errorpage } from './components'
 
 const router = createBrowserRouter([

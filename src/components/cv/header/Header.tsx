@@ -18,7 +18,7 @@ export const Header = () => {
 	return (
 		<header
 			id='header'
-			className='header logo header-flex'
+			className='logo header-flex'
 		>
 			<Container type='header-container'>
 				<Link to={'/'}>
