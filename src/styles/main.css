@@ -78,6 +78,10 @@
 	--MAX-WIDTH-PHONE-SKILLS: 21dvw;
 	--MIN-HEIGHT-PHONE-SKILLS: 1dvh;
 	--MAX-HEIGHT-PHONE-SKILLS: 1dvh;
+
+	--MAX-WIDTH-FOOTER: 67dvw;
+	--MAX-WIDTH-TABLET-FOOTER: 80dvw;
+	--MAX-WIDTH-PHONE-FOOTER: 80dvw;
 }
 
 * {
@@ -286,18 +290,8 @@ ul {
 	letter-spacing: 0.2em;
 }
 
-/* footer */
-.footer {
-	font-family: 'Poiret One', cursive;
-	padding: 2em;
-}
-
 .copyright {
 	font-size: 0.8rem;
-}
-
-.footer section a em {
-	font-size: 1.3rem;
 }
 
 /* specified css */
@@ -596,6 +590,10 @@ ul {
 	color: var(--logo-color);
 }
 
+.info-cv p a:hover {
+	font-weight: 500;
+}
+
 .about {
 	color: var(--header-text-color);
 	background-color: var(--header-darker-color);
@@ -669,9 +667,6 @@ ul {
 	justify-items: center;
 	justify-content: center;
 	width: var(--MAX-WIDTH);
-
-	display: -webkit-box;
-	display: -ms-flexbox;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
 	-ms-flex-direction: row;
@@ -698,6 +693,7 @@ ul {
 
 select:hover {
 	background-color: var(--header-darker-hover-color);
+	cursor: pointer;
 }
 
 select:focus {
@@ -881,6 +877,37 @@ select:focus {
 	column-gap: 0.4rem;
 }
 
+.footer {
+	display: flex;
+	column-gap: 1rem;
+	justify-content: center;
+	padding: 0.3rem 1rem;
+	border-radius: 0.62em;
+	letter-spacing: 0.01em;
+	line-height: 1.5em;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	width: var(--MAX-WIDTH-FOOTER);
+	color: var(--header-text-color);
+	background-color: var(--header-darker-color);
+	margin-bottom: 2rem;
+	font-size: 0.75rem;
+}
+
+.footer a {
+	color: var(--color-hover-btn);
+}
+
+.footer a:hover {
+	color: var(--frangipanidev-primary);
+}
+
+.footer:hover {
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	background-color: var(--header-darker-hover-color);
+}
+
 @media screen and (max-width: 75rem) {
 	:root {
 		font-size: 1rem;
@@ -907,9 +934,6 @@ select:focus {
 		justify-items: center;
 		justify-content: center;
 		width: var(--MAX-TABLET-WIDTH);
-
-		display: -webkit-box;
-		display: -ms-flexbox;
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
 		-ms-flex-direction: row;
@@ -1136,6 +1160,10 @@ select:focus {
 		padding-top: 2em;
 		text-align: center;
 		width: var(--ARTICLE-CV-TABLET-WIDTH);
+	}
+
+	.footer {
+		width: var(--MAX-WIDTH-TABLET-FOOTER);
 	}
 }
 @media screen and (max-width: 40em) {
@@ -1380,5 +1408,10 @@ select:focus {
 		color: var(--color-hover-btn);
 		letter-spacing: 0.012em;
 		padding-top: 2em;
+	}
+	.footer {
+		width: var(--MAX-WIDTH-PHONE-FOOTER);
+		flex-wrap: wrap;
+		column-gap: 1.5rem;
 	}
 }
