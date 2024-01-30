@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { capitalize } from '../../../utils/capitalize'
 import profilePic from '../../../assets/octavio-frangipani.jpg'
 import QRcodeFrangipanidev from '../../../assets/QR-code-frangipanidev.svg'
-import { expressLogo, reduxLogo } from '../../../styles/assets'
+import { assets } from '../../../assets'
 
 export const Main = () => {
 	const fechaInicio = new Date('2023-02-01').getTime()
@@ -104,10 +104,12 @@ export const Main = () => {
 							</a>
 						</p>
 						<p>
-							<em className='fa-solid fa-passport'></em> <a>{t('passport')}</a>
+							<em className='fa-solid fa-passport'></em>{' '}
+							<span>{t('passport')}</span>
 						</p>
 						<p>
-							<em className='fa-solid fa-language'></em> <a>{t('language')}</a>
+							<em className='fa-solid fa-language'></em>{' '}
+							<span>{t('language')}</span>
 						</p>
 
 						<p>{t('summary')}</p>
@@ -251,13 +253,7 @@ export const Main = () => {
 						</article>
 						<article className='article-cv'>
 							<h5>
-								Full Stack Web {t('developer')} {t('at')}{' '}
-								<a
-									href='#'
-									target='blank'
-								>
-									Letizia
-								</a>
+								Full Stack Web {t('developer')} {t('at')} <span>Letizia</span>
 							</h5>
 							<p>
 								{t('February 2021 - January 2022')} (1 {t('year')})
@@ -509,7 +505,7 @@ export const Main = () => {
 						<article className='article-cv'>
 							<p>
 								<img
-									src={reduxLogo}
+									src={assets.reduxLogo}
 									alt='redux-logo'
 									width={15}
 								/>{' '}
@@ -540,7 +536,7 @@ export const Main = () => {
 						<article className='article-cv'>
 							<p>
 								<img
-									src={expressLogo}
+									src={assets.expressLogo}
 									alt='express-logo'
 									width={15}
 								/>{' '}

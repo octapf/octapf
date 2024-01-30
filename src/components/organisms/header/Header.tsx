@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { useState } from 'react'
 import i18n from '../../../i18n'
-import { frangipaniDevLogo } from '../../../styles/assets'
+import { assets } from '../../../assets'
 import { Link } from 'react-router-dom'
 import { Container } from '../../atoms'
 
@@ -24,7 +24,7 @@ export const Header = () => {
 				<Link to={'/'}>
 					<div>
 						<img
-							src={frangipaniDevLogo}
+							src={assets.frangipaniDevLogo}
 							alt='frangipanidev-logo'
 							width={50}
 						/>

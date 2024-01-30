@@ -1,5 +1,8 @@
-import IContainer from '../../../interfaces/IContainer'
+type TContainer = {
+	type: string
+	children: React.ReactNode
+}
 
-export const Container = ({ type, children }: IContainer) => {
+export const Container = ({ type, children }: TContainer) => {
 	return <div className={type}>{children}</div>
 }

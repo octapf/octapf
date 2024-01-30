@@ -9,7 +9,7 @@ import qrcode_linkedin_octaviofrangipani from '../assets/qrcode_www.linkedin.com
 import reduxLogo from '../assets/redux-logo-svgrepo-com.svg'
 import expressLogo from '../assets/expressjs_logo_icon_169185.svg'
 
-export {
+const assets = {
 	lgvLogo,
 	itaLogo,
 	frangipaniDevLogoWtext,
@@ -21,3 +21,5 @@ export {
 	reduxLogo,
 	expressLogo,
 }
+
+export { assets }
