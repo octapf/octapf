@@ -1,9 +1,9 @@
 import { useTranslation } from 'react-i18next'
-import { Container } from '../../../components'
 import { useState } from 'react'
 import i18n from '../../../i18n'
 import { frangipaniDevLogo } from '../../../styles/assets'
 import { Link } from 'react-router-dom'
+import { Container } from '../../atoms'
 
 export const Header = () => {
 	const [selectedValue, setSelectedValue] = useState('EN')

@@ -1,5 +1,5 @@
-import { Container } from '..'
-import { Header, Main } from './index'
+import { Container } from '../components/atoms'
+import { Header, Main } from '../components/organisms'
 
 export const Cv = () => {
 	return (

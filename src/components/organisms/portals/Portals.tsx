@@ -1,4 +1,3 @@
-import { Container, Portal } from '..'
 import styles from './portals.module.css'
 import {
 	itaLogo,
@@ -8,7 +7,9 @@ import {
 	qrcode_github_lgv,
 	qrcode_github_octapf,
 	qrcode_linkedin_octaviofrangipani,
-} from '../../styles/assets'
+} from '../../../styles/assets'
+import { Container } from '../../atoms'
+import { Portal } from '../../molecules'
 
 export const Portals = () => {
 	return (

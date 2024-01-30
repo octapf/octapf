@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
-import { Container } from '../..'
 import styles from './portal.module.css'
+import { Container } from '../../atoms'
 
 type TPortal = {
 	multiPortal?: boolean

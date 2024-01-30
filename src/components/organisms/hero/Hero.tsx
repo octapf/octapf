@@ -1,4 +1,4 @@
-import logo from '../../assets/frangipanidev-invert-logo.png'
+import logo from '../../../assets/frangipanidev-invert-logo.png'
 import styles from './hero.module.css'
 
 export const Hero = () => {

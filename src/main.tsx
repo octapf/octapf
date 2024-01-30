@@ -1,19 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import { Cv } from './components/cv/Cv.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './i18n'
 import './styles/main.css'
-import { Errorpage } from './components'
+import { paths } from './constants/'
+import { Cv, Errorpage, Home } from './pages'
 
 const router = createBrowserRouter([
 	{
-		path: '/',
-		element: <App />,
+		path: paths.home,
+		element: <Home />,
 		errorElement: <Errorpage />,
 	},
-	{ path: '/cv', element: <Cv /> },
+	{ path: paths.cv, element: <Cv />, errorElement: <Errorpage /> },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
