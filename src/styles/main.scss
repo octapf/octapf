@@ -1163,7 +1163,7 @@ select:focus {
 }
 @media (width <= 40rem) {
 	:root {
-		font-size: 1rem;
+		font-size: 1.2rem;
 	}
 
 	.header-flex {
@@ -1258,12 +1258,12 @@ select:focus {
 		text-align: center;
 	}
 	.title-name {
-		font-size: 2rem !important;
+		font-size: 1.6rem !important;
 		text-align: center;
 		padding: 0.3rem;
 	}
 	.subtitle-name {
-		font-size: 1rem !important;
+		font-size: 0.8rem !important;
 		padding: 0.5rem;
 		text-align: center;
 	}
