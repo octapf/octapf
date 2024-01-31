@@ -74,8 +74,8 @@
 	--MIN-HEIGHT-TABLET-SKILLS: 1dvh;
 	--MAX-HEIGHT-TABLET-SKILLS: 1dvh;
 
-	--MIN-WIDTH-PHONE-SKILLS: 20dvw;
-	--MAX-WIDTH-PHONE-SKILLS: 21dvw;
+	--MIN-WIDTH-PHONE-SKILLS: 15dvw;
+	--MAX-WIDTH-PHONE-SKILLS: 16dvw;
 	--MIN-HEIGHT-PHONE-SKILLS: 1dvh;
 	--MAX-HEIGHT-PHONE-SKILLS: 1dvh;
 
@@ -1283,6 +1283,7 @@ select:focus {
 		align-items: center;
 		text-align: center;
 		width: 80%;
+		padding: 0;
 	}
 	.article-cv {
 		color: var(--header-text-color);
@@ -1311,7 +1312,7 @@ select:focus {
 		align-content: center;
 		justify-content: center;
 		justify-items: center;
-		padding-bottom: 2rem;
+		padding: 0 1rem 1rem 1rem;
 		width: auto;
 	}
 	.flex-row-skills article {
@@ -1327,6 +1328,7 @@ select:focus {
 		justify-content: center;
 	}
 	.flex-row-skills article p {
+		font-size: 0.7rem;
 		display: flex;
 		align-items: center;
 		align-content: center;
