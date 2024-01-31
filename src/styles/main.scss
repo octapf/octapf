@@ -916,7 +916,6 @@ select:focus {
 		font-family: 'Poiret One', cursive;
 		text-align: center;
 		display: flex;
-		flex-direction: column;
 		align-items: stretch;
 		align-content: space-between;
 		justify-content: center;
@@ -927,6 +926,7 @@ select:focus {
 
 	.header-container {
 		display: flex;
+		flex-direction: row;
 		align-content: center;
 		justify-items: center;
 		-webkit-box-orient: horizontal;
@@ -936,7 +936,6 @@ select:focus {
 		-ms-flex-align: center;
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
-		flex-direction: column-reverse;
 		align-items: center;
 		justify-content: center;
 		width: 100%;
@@ -1171,7 +1170,6 @@ select:focus {
 		font-family: 'Poiret One', cursive;
 		text-align: center;
 		display: flex;
-		flex-direction: column;
 		align-items: stretch;
 		align-content: space-between;
 		justify-content: center;
@@ -1182,7 +1180,7 @@ select:focus {
 
 	.header-container {
 		display: flex;
-		flex-direction: column-reverse;
+		flex-direction: row;
 		align-items: center;
 		justify-content: center;
 		width: 100%;
@@ -1290,7 +1288,7 @@ select:focus {
 	}
 	.qrcode {
 		padding-top: 0.8rem;
-		width: 70px;
+		width: 120px;
 	}
 	.foto-perfil-cv {
 		justify-self: center;
