@@ -69,8 +69,8 @@
 	--MIN-HEIGHT-DESKTOP-SKILLS: 1dvh;
 	--MAX-HEIGHT-DESKTOP-SKILLS: 1dvh;
 
-	--MIN-WIDTH-TABLET-SKILLS: 12dvw;
-	--MAX-WIDTH-TABLET-SKILLS: 13dvw;
+	--MIN-WIDTH-TABLET-SKILLS: 15dvw;
+	--MAX-WIDTH-TABLET-SKILLS: 16dvw;
 	--MIN-HEIGHT-TABLET-SKILLS: 1dvh;
 	--MAX-HEIGHT-TABLET-SKILLS: 1dvh;
 
@@ -922,18 +922,13 @@ select:focus {
 		justify-content: center;
 		justify-items: end;
 		padding-top: 1rem;
-		width: 100%;
+		width: 80%;
 	}
 
 	.header-container {
 		display: flex;
-		flex-direction: row;
-		align-items: center;
 		align-content: center;
 		justify-items: center;
-		justify-content: center;
-		width: 100%;
-		align-self: center;
 		border: 1px solid yellow;
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
@@ -942,6 +937,12 @@ select:focus {
 		-ms-flex-align: center;
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		align-self: center;
+		row-gap: 1rem;
 	}
 
 	.header-container select {
@@ -970,7 +971,7 @@ select:focus {
 		line-height: 1.5em;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
-		width: 100%;
+		width: 80%;
 	}
 
 	.info-cv:hover {
@@ -993,7 +994,7 @@ select:focus {
 		line-height: 1.5em;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
-		width: 100%;
+		width: 80%;
 	}
 
 	.cv-container {
@@ -1008,7 +1009,7 @@ select:focus {
 		justify-content: center;
 		justify-items: center;
 		border: 1px solid yellow;
-		width: 100%;
+		width: auto;
 	}
 
 	.logo {
@@ -1049,7 +1050,7 @@ select:focus {
 	}
 	.foto-perfil-cv {
 		justify-self: center;
-		width: 100%;
+		width: 80%;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
 	}
@@ -1068,13 +1069,12 @@ select:focus {
 		align-items: center;
 		text-align: center;
 		margin: 0 3rem;
-		width: 100%;
+		width: auto;
 		padding: 0;
 	}
 	.article-cv {
 		color: var(--header-text-color);
 		background-color: var(--header-darker-color);
-		padding: 1rem;
 		border-radius: 0.62em;
 		letter-spacing: 0.01em;
 		line-height: 1.5em;
@@ -1107,7 +1107,7 @@ select:focus {
 		justify-content: center;
 		justify-items: center;
 		padding: 0 1rem 1rem 1rem;
-		width: auto;
+		width: 80%;
 	}
 	.flex-row-skills article {
 		min-width: var(--MIN-WIDTH-TABLET-SKILLS);
@@ -1147,6 +1147,7 @@ select:focus {
 		-ms-flex-pack: center;
 		justify-content: center;
 		row-gap: 1rem;
+		width: 100%;
 	}
 	.main-info-cv {
 		font-family: 'Maven Pro', sans-serif;
@@ -1178,7 +1179,7 @@ select:focus {
 		justify-content: center;
 		justify-items: end;
 		padding-top: 1rem;
-		width: 100%;
+		width: 80%;
 	}
 
 	.header-container {
@@ -1217,7 +1218,7 @@ select:focus {
 		line-height: 1.5em;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
-		width: 100%;
+		width: 80%;
 	}
 
 	.info-cv:hover {
@@ -1240,7 +1241,7 @@ select:focus {
 		line-height: 1.5em;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
-		width: 100%;
+		width: 80%;
 	}
 
 	.cv-container {
@@ -1255,7 +1256,7 @@ select:focus {
 		justify-content: center;
 		justify-items: center;
 		border: 1px solid yellow;
-		width: 100%;
+		width: auto;
 	}
 
 	.logo {
@@ -1269,6 +1270,7 @@ select:focus {
 	.subtitle-name {
 		font-size: 1rem !important;
 		padding: 0.5rem;
+		text-align: center;
 	}
 	.navbar-flex {
 		-webkit-box-orient: vertical;
@@ -1295,7 +1297,7 @@ select:focus {
 	}
 	.foto-perfil-cv {
 		justify-self: center;
-		width: 100%;
+		width: 80%;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
 	}
@@ -1313,13 +1315,12 @@ select:focus {
 		align-items: center;
 		text-align: center;
 		margin: 0 3rem;
-		width: 100%;
+		width: auto;
 		padding: 0;
 	}
 	.article-cv {
 		color: var(--header-text-color);
 		background-color: var(--header-darker-color);
-		padding: 1rem;
 		border-radius: 0.62em;
 		letter-spacing: 0.01em;
 		line-height: 1.5em;
@@ -1352,7 +1353,7 @@ select:focus {
 		justify-content: center;
 		justify-items: center;
 		padding: 0 1rem 1rem 1rem;
-		width: auto;
+		width: 80%;
 	}
 	.flex-row-skills article {
 		min-width: var(--MIN-WIDTH-PHONE-SKILLS);
@@ -1392,6 +1393,7 @@ select:focus {
 		-ms-flex-pack: center;
 		justify-content: center;
 		row-gap: 1rem;
+		width: 100%;
 	}
 
 	.main-info-cv {
