@@ -908,7 +908,7 @@ select:focus {
 	background-color: var(--header-darker-hover-color);
 }
 
-@media screen and (max-width: 75rem) {
+@media (width <= 75rem) {
 	:root {
 		font-size: 1rem;
 	}
@@ -923,7 +923,7 @@ select:focus {
 		justify-content: center;
 		justify-items: end;
 		padding-top: 1rem;
-		width: var(--MAX-TABLET-WIDTH);
+		width: auto;
 	}
 
 	.header-container {
@@ -933,7 +933,7 @@ select:focus {
 		align-content: center;
 		justify-items: center;
 		justify-content: center;
-		width: var(--MAX-TABLET-WIDTH);
+		width: auto;
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
 		-ms-flex-direction: row;
@@ -951,7 +951,7 @@ select:focus {
 		line-height: 1.5em;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
-		width: var(--MAX-WIDTH-TABLET-INFO-CV);
+		width: auto;
 	}
 
 	.info-cv:hover {
@@ -974,35 +974,11 @@ select:focus {
 		line-height: 1.5em;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
-		width: var(--MAX-WIDTH-TABLET-ABOUT);
-	}
-	.title-name {
-		font-size: 2rem !important;
-	}
-
-	.subtitle-name {
-		font-size: 1rem !important;
+		width: auto;
 	}
 
 	.cv-container {
-		/* background-color: var(--header-container-color); */
-		/* display: -webkit-box; */
-		/* display: -ms-flexbox; */
-		/* -webkit-box-orient: vertical; */
-		/* -webkit-box-direction: normal; */
-		/* -ms-flex-direction: column; */
-		/* display: flex; */
-		/* flex-direction: column; */
-		/* align-content: center; */
-		/* align-items: center; */
-		/* justify-content: center; */
-		/* justify-items: center; */
-		/* -ms-flex-line-pack: center; */
-		/* -webkit-box-align: center; */
-		/* -ms-flex-align: center; */
-		/* -webkit-box-pack: center; */
-		/* -ms-flex-pack: center; */
-		width: var(--MAX-TABLET-WIDTH);
+		width: auto;
 	}
 
 	.main-container {
@@ -1012,7 +988,8 @@ select:focus {
 		align-content: center;
 		justify-content: center;
 		justify-items: center;
-		width: var(--MAX-TABLET-WIDTH);
+		border: 1px solid yellow;
+		width: auto;
 	}
 
 	.logo {
@@ -1053,14 +1030,14 @@ select:focus {
 	}
 	.foto-perfil-cv {
 		justify-self: center;
-		width: var(--MAX-TABLET-WIDTH-FOTO-PERFIL);
+		width: auto;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
 	}
 	.foto-perfil-cv:hover {
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
-		width: var(--MAX-TABLET-WIDTH-FOTO-PERFIL);
+		width: auto;
 	}
 	.flex-row-container {
 		display: -webkit-box;
@@ -1086,7 +1063,7 @@ select:focus {
 		line-height: 1.5em;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
-		width: var(--ARTICLE-CV-TABLET-WIDTH);
+		width: auto;
 	}
 	.article-cv:hover {
 		-webkit-transition: 0.3s;
@@ -1159,14 +1136,14 @@ select:focus {
 		letter-spacing: 0.012em;
 		padding-top: 2em;
 		text-align: center;
-		width: var(--ARTICLE-CV-TABLET-WIDTH);
+		width: auto;
 	}
 
 	.footer {
 		width: var(--MAX-WIDTH-TABLET-FOOTER);
 	}
 }
-@media screen and (max-width: 40em) {
+@media (width <= 40rem) {
 	:root {
 		font-size: 0.85rem;
 	}
@@ -1181,7 +1158,7 @@ select:focus {
 		justify-content: center;
 		justify-items: end;
 		padding-top: 1rem;
-		width: var(--MAX-PHONE-WIDTH);
+		width: 80%;
 	}
 
 	.header-container {
@@ -1189,7 +1166,9 @@ select:focus {
 		flex-direction: column-reverse;
 		align-items: center;
 		justify-content: space-evenly;
-		width: var(--MAX-PHONE-WIDTH);
+		width: 80%;
+		align-self: center;
+		border: 1px solid red;
 		row-gap: 1rem;
 	}
 
@@ -1214,12 +1193,12 @@ select:focus {
 	.info-cv {
 		color: var(--header-text-color);
 		background-color: var(--header-darker-color);
-		padding: 1em;
+		padding: 5%;
 		border-radius: 0.62em;
 		line-height: 1.5em;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
-		width: var(--MAX-WIDTH-PHONE-INFO-CV);
+		width: 80%;
 	}
 
 	.info-cv:hover {
@@ -1237,53 +1216,28 @@ select:focus {
 	.about {
 		color: var(--header-text-color);
 		background-color: var(--header-darker-color);
-		padding: 1em;
+		padding: 5%;
 		border-radius: 0.62em;
 		line-height: 1.5em;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
-		width: var(--MAX-WIDTH-PHONE-ABOUT);
-	}
-
-	.title-name {
-		font-size: 2rem !important;
-	}
-
-	.subtitle-name {
-		font-size: 1rem !important;
+		width: 80%;
 	}
 
 	.cv-container {
-		/* background-color: var(--header-container-color); */
-		/* display: -webkit-box; */
-		/* display: -ms-flexbox; */
-		/* -webkit-box-orient: vertical; */
-		/* -webkit-box-direction: normal; */
-		/* -ms-flex-direction: column; */
-		/* display: flex; */
-		/* flex-direction: column; */
-		/* align-content: center; */
-		/* align-items: center; */
-		/* justify-content: center; */
-		/* justify-items: center; */
-		/* -ms-flex-line-pack: center; */
-		/* -webkit-box-align: center; */
-		/* -ms-flex-align: center; */
-		/* -webkit-box-pack: center; */
-		/* -ms-flex-pack: center; */
-		width: var(--MAX-PHONE-WIDTH);
+		width: auto;
 	}
 
 	.logo {
 		text-align: center;
 	}
 	.title-name {
+		font-size: 2rem !important;
 		text-align: center;
-		font-size: 1.5rem;
 		padding: 0.3rem;
 	}
 	.subtitle-name {
-		font-size: 0.8rem !important;
+		font-size: 1rem !important;
 		padding: 0.5rem;
 	}
 	.navbar-flex {
@@ -1311,14 +1265,9 @@ select:focus {
 	}
 	.foto-perfil-cv {
 		justify-self: center;
-		width: var(--MAX-PHONE-WIDTH-FOTO-PERFIL);
+		width: 80%;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
-	}
-	.foto-perfil-cv:hover {
-		-webkit-transition: 0.3s;
-		transition: 0.3s;
-		width: var(--MAX-PHONE-WIDTH-FOTO-PERFIL);
 	}
 	.flex-row-container {
 		display: -webkit-box;
@@ -1333,6 +1282,7 @@ select:focus {
 		-ms-flex-align: center;
 		align-items: center;
 		text-align: center;
+		width: 80%;
 	}
 	.article-cv {
 		color: var(--header-text-color);
@@ -1343,7 +1293,7 @@ select:focus {
 		line-height: 1.5em;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
-		width: var(--ARTICLE-CV-PHONE-WIDTH);
+		width: 100%;
 	}
 	.article-cv:hover {
 		-webkit-transition: 0.3s;
@@ -1362,7 +1312,7 @@ select:focus {
 		justify-content: center;
 		justify-items: center;
 		padding-bottom: 2rem;
-		width: var(--MAX-WIDTH-PHONE-SKILL-SECTION);
+		width: auto;
 	}
 	.flex-row-skills article {
 		min-width: var(--MIN-WIDTH-PHONE-SKILLS);
@@ -1401,7 +1351,8 @@ select:focus {
 		align-content: center;
 		justify-content: center;
 		justify-items: center;
-		width: var(--MAX-PHONE-WIDTH);
+		width: auto;
+		border: 1px solid red;
 	}
 	.main-info-cv {
 		font-family: 'Maven Pro', sans-serif;
@@ -1410,7 +1361,7 @@ select:focus {
 		padding-top: 2em;
 	}
 	.footer {
-		width: var(--MAX-WIDTH-PHONE-FOOTER);
+		width: auto;
 		flex-wrap: wrap;
 		column-gap: 1.5rem;
 	}
