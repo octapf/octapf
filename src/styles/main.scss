@@ -722,8 +722,6 @@ select:focus {
 	}
 }
 .cv-container {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
@@ -732,8 +730,6 @@ select:focus {
 	-ms-flex-align: center;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
-
-	border: 1px solid red;
 	background-color: var(--header-container-color);
 	display: flex;
 	flex-direction: column;

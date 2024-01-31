@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './i18n'
-import './styles/main.css'
+import './styles/main.scss'
 import { paths } from './constants/'
 import { Cv, Errorpage, Home } from './pages'
 
