@@ -969,7 +969,7 @@ select:focus {
 		line-height: 1.5em;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
-		width: 80%;
+		width: 100%;
 	}
 
 	.info-cv:hover {
@@ -992,7 +992,7 @@ select:focus {
 		line-height: 1.5em;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
-		width: 80%;
+		width: 100%;
 	}
 
 	.cv-container {
@@ -1007,7 +1007,7 @@ select:focus {
 		justify-content: center;
 		justify-items: center;
 		border: 1px solid yellow;
-		width: 80%;
+		width: 100%;
 	}
 
 	.logo {
@@ -1048,15 +1048,11 @@ select:focus {
 	}
 	.foto-perfil-cv {
 		justify-self: center;
-		width: auto;
+		width: 100%;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
 	}
-	.foto-perfil-cv:hover {
-		-webkit-transition: 0.3s;
-		transition: 0.3s;
-		width: auto;
-	}
+
 	.flex-row-container {
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -1071,6 +1067,8 @@ select:focus {
 		align-items: center;
 		text-align: center;
 		margin: 0 3rem;
+		width: 100%;
+		padding: 0;
 	}
 	.article-cv {
 		color: var(--header-text-color);
@@ -1081,7 +1079,7 @@ select:focus {
 		line-height: 1.5em;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
-		width: auto;
+		width: 100%;
 	}
 	.article-cv:hover {
 		-webkit-transition: 0.3s;
@@ -1107,8 +1105,8 @@ select:focus {
 		-ms-flex-pack: center;
 		justify-content: center;
 		justify-items: center;
-		padding-bottom: 2rem;
-		width: var(--MAX-WIDTH-TABLET-SKILL-SECTION);
+		padding: 0 1rem 1rem 1rem;
+		width: auto;
 	}
 	.flex-row-skills article {
 		min-width: var(--MIN-WIDTH-TABLET-SKILLS);
@@ -1129,6 +1127,7 @@ select:focus {
 		justify-items: center;
 		justify-content: center;
 		column-gap: 0.4rem;
+		font-size: 0.7rem;
 	}
 	.flex-row-maininfo {
 		display: -webkit-box;
@@ -1158,7 +1157,9 @@ select:focus {
 	}
 
 	.footer {
-		width: var(--MAX-WIDTH-TABLET-FOOTER);
+		width: auto;
+		flex-wrap: wrap;
+		column-gap: 1.5rem;
 	}
 }
 @media (width <= 40rem) {
@@ -1356,13 +1357,13 @@ select:focus {
 		justify-content: center;
 	}
 	.flex-row-skills article p {
-		font-size: 0.7rem;
 		display: flex;
 		align-items: center;
 		align-content: center;
 		justify-items: center;
 		justify-content: center;
 		column-gap: 0.4rem;
+		font-size: 0.7rem;
 	}
 	.flex-row-maininfo {
 		display: -webkit-box;
