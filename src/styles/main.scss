@@ -1145,7 +1145,7 @@ select:focus {
 }
 @media (width <= 40rem) {
 	:root {
-		font-size: 0.85rem;
+		font-size: 1rem;
 	}
 
 	.header-flex {
@@ -1158,7 +1158,7 @@ select:focus {
 		justify-content: center;
 		justify-items: end;
 		padding-top: 1rem;
-		width: 80%;
+		width: 100%;
 	}
 
 	.header-container {
@@ -1166,9 +1166,9 @@ select:focus {
 		flex-direction: column-reverse;
 		align-items: center;
 		justify-content: space-evenly;
-		width: 80%;
+		width: 100%;
 		align-self: center;
-		border: 1px solid red;
+
 		row-gap: 1rem;
 	}
 
@@ -1354,7 +1354,6 @@ select:focus {
 		justify-content: center;
 		justify-items: center;
 		width: auto;
-		border: 1px solid red;
 	}
 	.main-info-cv {
 		font-family: 'Maven Pro', sans-serif;
