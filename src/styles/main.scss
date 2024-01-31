@@ -930,6 +930,7 @@ select:focus {
 		align-content: center;
 		justify-items: center;
 		-webkit-box-orient: horizontal;
+		gap: 1.5rem;
 		-webkit-box-direction: normal;
 		-ms-flex-direction: row;
 		-webkit-box-align: center;
@@ -940,7 +941,6 @@ select:focus {
 		justify-content: center;
 		width: 100%;
 		align-self: center;
-		row-gap: 1rem;
 	}
 
 	.header-container select {
@@ -1171,8 +1171,8 @@ select:focus {
 		font-family: 'Poiret One', cursive;
 		text-align: center;
 		display: flex;
-		align-items: stretch;
-		align-content: space-between;
+		align-items: center;
+		align-content: center;
 		justify-content: center;
 		justify-items: end;
 		padding-top: 1rem;
@@ -1184,6 +1184,7 @@ select:focus {
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
+		gap: 1.5rem;
 		width: 100%;
 		align-self: center;
 		row-gap: 1rem;
