@@ -22,11 +22,12 @@ export const Header = () => {
 		>
 			<Container type='header-container'>
 				<Link to={'/'}>
-					<div>
+					<div className='logo-container'>
 						<img
 							src={assets.frangipaniDevLogo}
 							alt='frangipanidev-logo'
 							width={50}
+							height={50}
 						/>
 					</div>
 				</Link>

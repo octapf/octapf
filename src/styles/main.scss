@@ -930,7 +930,7 @@ select:focus {
 		align-content: center;
 		justify-items: center;
 		-webkit-box-orient: horizontal;
-		gap: 1.5rem;
+		column-gap: 1.5rem;
 		-webkit-box-direction: normal;
 		-ms-flex-direction: row;
 		-webkit-box-align: center;
@@ -1012,6 +1012,7 @@ select:focus {
 	.logo {
 		text-align: center;
 	}
+
 	.title-name {
 		text-align: center;
 		font-size: 2.5rem;
@@ -1183,11 +1184,11 @@ select:focus {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+		align-content: center;
 		justify-content: center;
-		gap: 1.5rem;
+		column-gap: 1.5rem;
 		width: 100%;
 		align-self: center;
-		row-gap: 1rem;
 	}
 
 	.header-container select {
