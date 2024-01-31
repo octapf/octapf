@@ -933,6 +933,7 @@ select:focus {
 		justify-items: center;
 		justify-content: center;
 		width: 100%;
+		align-self: center;
 		border: 1px solid yellow;
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
@@ -1184,7 +1185,7 @@ select:focus {
 		display: flex;
 		flex-direction: column-reverse;
 		align-items: center;
-		justify-content: space-evenly;
+		justify-content: center;
 		width: 100%;
 		align-self: center;
 		row-gap: 1rem;
@@ -1216,7 +1217,7 @@ select:focus {
 		line-height: 1.5em;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
-		width: 80%;
+		width: 100%;
 	}
 
 	.info-cv:hover {
@@ -1239,7 +1240,7 @@ select:focus {
 		line-height: 1.5em;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
-		width: 80%;
+		width: 100%;
 	}
 
 	.cv-container {
@@ -1254,7 +1255,7 @@ select:focus {
 		justify-content: center;
 		justify-items: center;
 		border: 1px solid yellow;
-		width: 80%;
+		width: 100%;
 	}
 
 	.logo {
@@ -1294,7 +1295,7 @@ select:focus {
 	}
 	.foto-perfil-cv {
 		justify-self: center;
-		width: 80%;
+		width: 100%;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
 	}
@@ -1311,7 +1312,8 @@ select:focus {
 		-ms-flex-align: center;
 		align-items: center;
 		text-align: center;
-		width: 80%;
+		margin: 0 3rem;
+		width: 100%;
 		padding: 0;
 	}
 	.article-cv {
@@ -1334,11 +1336,19 @@ select:focus {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
+		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		row-gap: 0.5rem;
-		column-gap: 0.5rem;
+		row-gap: 1rem;
+		-webkit-column-gap: 1rem;
+		-moz-column-gap: 1rem;
+		column-gap: 1rem;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
 		align-items: center;
+		-ms-flex-line-pack: center;
 		align-content: center;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
 		justify-content: center;
 		justify-items: center;
 		padding: 0 1rem 1rem 1rem;
@@ -1369,9 +1379,17 @@ select:focus {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
 		flex-direction: column;
+		-ms-flex-line-pack: center;
 		align-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
 		align-items: center;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
 		justify-content: center;
 		row-gap: 1rem;
 	}
@@ -1381,6 +1399,8 @@ select:focus {
 		color: var(--color-hover-btn);
 		letter-spacing: 0.012em;
 		padding-top: 2em;
+		text-align: center;
+		width: auto;
 	}
 	.footer {
 		width: auto;
