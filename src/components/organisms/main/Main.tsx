@@ -57,11 +57,7 @@ export const Main = () => {
 								className='fa-brands fa-git-alt'
 							></em>{' '}
 						</h1>
-						<img
-							className='qrcode'
-							src={QRcodeFrangipanidev}
-							alt='foto perfil'
-						/>
+
 						<p>{t('city')} </p>
 						<p>
 							<em className='fas fa-envelope'></em>{' '}
@@ -113,6 +109,11 @@ export const Main = () => {
 						</p>
 
 						<p>{t('summary')}</p>
+						<img
+							className='qrcode'
+							src={QRcodeFrangipanidev}
+							alt='foto perfil'
+						/>
 					</article>
 				</div>
 				<h4 className='mary1'>
