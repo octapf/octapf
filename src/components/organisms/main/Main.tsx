@@ -119,10 +119,7 @@ export const Main = () => {
 				<h4 className='mary1'>
 					{t('about')}{' '}
 					<a href='#header'>
-						<em
-							style={{ fontSize: '12px' }}
-							className='fa-solid fa-angle-up'
-						></em>
+						<em className='fa-solid fa-angle-up arrow'></em>
 					</a>
 				</h4>
 				<article className='about'>
@@ -148,10 +145,7 @@ export const Main = () => {
 					<h4 className='mary1'>
 						{t('experience')}{' '}
 						<a href='#header'>
-							<em
-								style={{ fontSize: '12px' }}
-								className='fa-solid fa-angle-up'
-							></em>
+							<em className='fa-solid fa-angle-up arrow'></em>
 						</a>
 					</h4>
 					<div className='flex-row-container'>
@@ -294,10 +288,7 @@ export const Main = () => {
 					<h4 className='mary1'>
 						{t('education')}{' '}
 						<a href='#header'>
-							<em
-								style={{ fontSize: '12px' }}
-								className='fa-solid fa-angle-up'
-							></em>
+							<em className='fa-solid fa-angle-up arrow'></em>
 						</a>
 					</h4>
 					<div className='flex-row-container'>
@@ -451,10 +442,7 @@ export const Main = () => {
 					<h4 className='mary1'>
 						{t('Skills')}{' '}
 						<a href='#header'>
-							<em
-								style={{ fontSize: '12px' }}
-								className='fa-solid fa-angle-up'
-							></em>
+							<em className='fa-solid fa-angle-up arrow'></em>
 						</a>
 					</h4>
 					<div className='flex-row-skills'>

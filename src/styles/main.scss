@@ -623,6 +623,10 @@ ul {
 	font-weight: 500;
 }
 
+.arrow {
+	font-size: 1rem;
+}
+
 .about {
 	color: var(--header-text-color);
 	background-color: var(--header-darker-color);
@@ -634,9 +638,6 @@ ul {
 	line-height: 1.5em;
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
-}
-
-.about p {
 	width: var(--MAX-WIDTH-ABOUT);
 }
 
@@ -1016,6 +1017,9 @@ select:focus {
 		letter-spacing: 0.012em;
 		color: var(--logo-color);
 	}
+	.arrow {
+		font-size: 0.9rem;
+	}
 
 	.about {
 		color: var(--header-text-color);
@@ -1184,7 +1188,7 @@ select:focus {
 		scroll-behavior: smooth;
 		max-width: var(--MAX-WIDTH-PHONE-HTML);
 		margin: auto;
-		font-size: 1.2rem;
+		font-size: 1.3rem;
 	}
 
 	.header-flex {
@@ -1244,6 +1248,10 @@ select:focus {
 		font-family: 'Maven Pro', sans-serif;
 		letter-spacing: 0.012em;
 		color: var(--logo-color);
+	}
+
+	.arrow {
+		font-size: 0.8rem;
 	}
 
 	.about {
@@ -1379,7 +1387,7 @@ select:focus {
 		justify-content: center;
 		justify-items: center;
 		padding: 0 1rem 1rem 1rem;
-		width: 80%;
+		width: 100%;
 	}
 	.flex-row-skills article {
 		min-width: var(--MIN-WIDTH-PHONE-SKILLS);
@@ -1433,6 +1441,7 @@ select:focus {
 	.footer {
 		width: auto;
 		flex-wrap: wrap;
-		column-gap: 1.5rem;
+		gap: 1.5rem;
+		padding: 1.5rem 0;
 	}
 }
