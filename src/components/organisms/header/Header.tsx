@@ -18,22 +18,21 @@ export const Header = () => {
 	return (
 		<header
 			id='header'
-			className='logo header-flex'
+			className='header-flex'
 		>
 			<Container type='header-container'>
 				<Link to={'/'}>
 					<div className='logo-container'>
 						<img
+							className='logo'
 							src={assets.frangipaniDevLogo}
 							alt='frangipanidev-logo'
-							width={50}
-							height={50}
 						/>
 					</div>
 				</Link>
 				<h2
 					id='header'
-					className='title-name pady1'
+					className='title-name'
 				>
 					Octavio Frangipani
 				</h2>

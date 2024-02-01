@@ -92,6 +92,7 @@ html {
 	scroll-behavior: smooth;
 	max-width: var(--MAX-WIDTH-DESKTOP-HTML);
 	margin: auto;
+	font-size: 1.3rem;
 }
 
 body {
@@ -179,28 +180,6 @@ ul {
 	width: var(--MAX-WIDTH);
 }
 
-.header-flex {
-	font-family: 'Poiret One', cursive;
-	text-align: center;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-ms-flex-line-pack: center;
-	align-content: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	justify-items: center;
-	padding-top: 1rem;
-}
-
 /* HEAEDER */
 .qrcode {
 	padding-top: 0.8rem;
@@ -272,22 +251,72 @@ ul {
 	color: white;
 }
 
-.logo {
+.header-flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 	text-align: center;
-	display: inline;
-	font-weight: 100;
-	font-size: 2.5rem;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	justify-items: center;
+	font-family: 'Poiret One', cursive;
 	color: var(--logo-color);
 }
 
-.logo h2 {
-	font-weight: 100;
-	letter-spacing: 0.3em;
+.header-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+	justify-items: center;
+	justify-content: center;
+	width: var(--MAX-WIDTH);
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
 }
 
-.logo h6 {
+.logo-container {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+.logo {
+	width: 3rem;
+	height: 3rem;
+}
+
+.title-name {
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 0.3rem;
+	letter-spacing: 0.3em;
+	margin: 0 auto;
+	font-weight: 100;
+}
+.subtitle-name {
 	font-size: 1.2rem;
+	padding: 0.5rem;
+	text-align: center;
 	letter-spacing: 0.2em;
+	font-weight: bold;
 }
 
 .copyright {
@@ -613,15 +642,7 @@ ul {
 
 .foto-perfil-cv {
 	border-radius: 0.62em;
-	width: var(--MAX-WIDTH-FOTO-PERFIL);
-	-webkit-transition: 0.3s;
-	transition: 0.3s;
-}
-
-.foto-perfil-cv:hover {
-	-webkit-transition: 0.3s;
-	transition: 0.3s;
-	width: 16dvw;
+	width: 17.5rem;
 }
 
 .division {
@@ -659,27 +680,6 @@ ul {
 	border: none;
 }
 
-.header-container {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	align-content: center;
-	justify-items: center;
-	justify-content: center;
-	width: var(--MAX-WIDTH);
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-}
-
-.header-container h2 {
-	margin: 0 auto;
-}
-
 .language-select {
 	font-family: 'Maven Pro', cursive;
 	font-size: 1rem;
@@ -688,6 +688,12 @@ ul {
 	background-color: var(--header-darker-color);
 	color: var(--logo-color);
 	border: 1px solid var(--logo-color);
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+	margin: 0;
 }
 
 select:hover {
@@ -908,7 +914,10 @@ select:focus {
 }
 
 @media (width <= 75rem) {
-	:root {
+	html {
+		scroll-behavior: smooth;
+		max-width: var(--MAX-WIDTH-TABLET-HTML);
+		margin: auto;
 		font-size: 1.2rem;
 	}
 
@@ -943,7 +952,32 @@ select:focus {
 		align-self: center;
 	}
 
-	.header-container select {
+	.logo {
+		width: 3rem;
+		height: 3rem;
+	}
+
+	.title-name {
+		text-align: center;
+		font-size: 2rem;
+		padding: 0.5rem;
+		font-weight: 100;
+	}
+	.subtitle-name {
+		font-size: 0.8rem;
+		padding: 0.5rem;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.language-select {
+		font-family: 'Maven Pro', cursive;
+		font-size: 1rem;
+		border-radius: 0.7rem;
+		padding: 0.5rem;
+		background-color: var(--header-darker-color);
+		color: var(--logo-color);
+		border: 1px solid var(--logo-color);
 		display: flex;
 		align-content: center;
 		align-items: center;
@@ -952,13 +986,12 @@ select:focus {
 		margin: 0;
 	}
 
-	.header-container a div {
+	.logo-container {
 		display: flex;
 		align-content: center;
 		align-items: center;
 		justify-content: center;
 		justify-items: center;
-		padding-bottom: 1rem;
 	}
 
 	.info-cv {
@@ -1009,20 +1042,6 @@ select:focus {
 		width: auto;
 	}
 
-	.logo {
-		text-align: center;
-	}
-
-	.title-name {
-		text-align: center;
-		font-size: 2.5rem;
-		padding: 0.5rem;
-	}
-	.subtitle-name {
-		font-size: 1rem;
-		padding: 0.5rem;
-		text-align: center;
-	}
 	.navbar-flex {
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
@@ -1049,8 +1068,6 @@ select:focus {
 	.foto-perfil-cv {
 		justify-self: center;
 		width: 80%;
-		-webkit-transition: 0.3s;
-		transition: 0.3s;
 	}
 
 	.flex-row-container {
@@ -1163,7 +1180,10 @@ select:focus {
 	}
 }
 @media (width <= 40rem) {
-	:root {
+	html {
+		scroll-behavior: smooth;
+		max-width: var(--MAX-WIDTH-PHONE-HTML);
+		margin: auto;
 		font-size: 1.2rem;
 	}
 
@@ -1190,22 +1210,17 @@ select:focus {
 		align-self: center;
 	}
 
-	.header-container select {
+	.logo-container {
 		display: flex;
 		align-content: center;
 		align-items: center;
 		justify-content: center;
 		justify-items: center;
-		margin: 0;
 	}
 
-	.header-container a div {
-		display: flex;
-		align-content: center;
-		align-items: center;
-		justify-content: center;
-		justify-items: center;
-		padding-bottom: 1rem;
+	.logo {
+		width: 2.5rem;
+		height: 2.5rem;
 	}
 
 	.info-cv {
@@ -1256,19 +1271,35 @@ select:focus {
 		width: auto;
 	}
 
-	.logo {
-		text-align: center;
-	}
 	.title-name {
-		font-size: 1rem !important;
+		font-size: 1.43rem;
 		text-align: center;
 		padding: 0.3rem;
+		font-weight: 100;
 	}
 	.subtitle-name {
-		font-size: 0.5rem !important;
+		font-size: 0.7rem;
 		padding: 0.5rem;
 		text-align: center;
+		font-weight: bold;
 	}
+
+	.language-select {
+		font-family: 'Maven Pro', cursive;
+		font-size: 0.8rem;
+		border-radius: 0.7rem;
+		padding: 0.7rem 0.2rem;
+		background-color: var(--header-darker-color);
+		color: var(--logo-color);
+		border: 1px solid var(--logo-color);
+		display: flex;
+		align-content: center;
+		align-items: center;
+		justify-content: center;
+		justify-items: center;
+		margin: 0;
+	}
+
 	.navbar-flex {
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
@@ -1290,13 +1321,11 @@ select:focus {
 	}
 	.qrcode {
 		padding-top: 0.8rem;
-		width: 120px;
+		width: 140px;
 	}
 	.foto-perfil-cv {
 		justify-self: center;
 		width: 80%;
-		-webkit-transition: 0.3s;
-		transition: 0.3s;
 	}
 	.flex-row-container {
 		display: -webkit-box;
