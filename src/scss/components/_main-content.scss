@@ -1,0 +1,24 @@
+@use '../abstracts/' as *;
+@use '../base/' as *;
+
+.main-content-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+	width: $MAX-WIDTH-DESKTOP;
+}
+
+@media (width <= 75rem) {
+	.main-content-container {
+		width: $MAX-WIDTH-TABLET;
+	}
+}
+
+@media (width <= 40rem) {
+	.main-content-container {
+		width: $MAX-WIDTH-PHONE;
+	}
+}

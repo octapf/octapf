@@ -1,0 +1,24 @@
+@use '../abstracts/' as *;
+@use '../base/' as *;
+
+.cv-container {
+	background-color: $header-container-color;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+	width: $MAX-WIDTH-DESKTOP-HTML;
+}
+
+@media (width <= 75rem) {
+	.cv-container {
+		width: auto;
+	}
+}
+@media (width <= 40rem) {
+	.cv-container {
+		width: auto;
+	}
+}

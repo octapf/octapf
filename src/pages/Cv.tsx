@@ -1,11 +1,11 @@
 import { Container } from '../components/atoms'
-import { Footer, Header, Main } from '../components/organisms'
+import { Footer, Header, MainContent } from '../components/organisms'
 
 export const Cv = () => {
 	return (
 		<Container type='cv-container'>
 			<Header />
-			<Main />
+			<MainContent />
 			<Footer />
 		</Container>
 	)

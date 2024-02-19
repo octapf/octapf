@@ -1,7 +1,7 @@
-import { Footer } from './footer/Footer'
-import { Header } from './header/Header'
+import { Footer } from '../layout/footer/Footer'
+import { Header } from '../layout/header/Header'
 import { Hero } from './hero/Hero'
-import { Main } from './main/Main'
+import { MainContent } from './maincontent/MainContent'
 import { Portals } from './portals/Portals'
 
-export { Hero, Header, Main, Footer, Portals }
+export { Hero, Header, MainContent, Footer, Portals }

@@ -1,0 +1,15 @@
+export type TSection = {
+	id: string
+	children: React.ReactNode
+}
+
+export const Section = ({ id, children }: TSection) => {
+	return (
+		<section
+			id={id}
+			className='flex-section'
+		>
+			{children}
+		</section>
+	)
+}

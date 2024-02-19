@@ -33,7 +33,7 @@
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 1rem;
-	color: var(--lgv-color-text2) !important;
+	color: var(--lgv-color-text-2) !important;
 }
 
 .ita {
@@ -47,7 +47,7 @@
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 1rem;
-	color: var(--lgv-color-text2) !important;
+	color: var(--lgv-color-text-2) !important;
 }
 
 .qrcode img {

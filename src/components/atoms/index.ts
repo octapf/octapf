@@ -1,6 +1,7 @@
-import { Container } from './container/Container'
-import { ErrorComponent } from './error/ErrorComponent'
-import { Em } from './em/Em'
-import { A } from './a/A'
-
-export { Container, ErrorComponent, Em, A }
+export { Container } from './container/Container'
+export { ErrorComponent } from './error/ErrorComponent'
+export { Em } from './em/Em'
+export { A } from './a/A'
+export { Section } from '../atoms/section/Section'
+export { Article } from '../atoms/article/Article'
+export { FlexContainer } from '../atoms/flex-container/FlexContainer'

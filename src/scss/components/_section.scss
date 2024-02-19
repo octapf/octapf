@@ -1,0 +1,38 @@
+@use '../abstracts/' as *;
+@use '../base/' as *;
+
+.flex-section {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	font-family: 'Maven Pro', sans-serif;
+	letter-spacing: 0.012em;
+	p {
+		font-size: 0.87rem;
+		padding: 0.31em 0;
+	}
+	h4 {
+		padding-left: 0.4em;
+		color: $header-text-color;
+		font-size: 1.2rem;
+	}
+	h5 {
+		padding: 0.31em 0;
+		font-size: 1rem;
+	}
+	i {
+		color: $text-color;
+	}
+	a {
+		text-decoration: none;
+		color: $logo-color;
+		padding: 0.31em 0;
+	}
+}

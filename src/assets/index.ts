@@ -8,6 +8,8 @@ import qrcode_github_octapf from '../assets/qrcode_github.com_octapf.png'
 import qrcode_linkedin_octaviofrangipani from '../assets/qrcode_www.linkedin.com_octaviofrangipani.png'
 import reduxLogo from '../assets/redux-logo-svgrepo-com.svg'
 import expressLogo from '../assets/expressjs_logo_icon_169185.svg'
+import profilePic from '../assets/octavio-frangipani.jpg'
+import QRcodeFrangipanidev from '../assets/QR-code-frangipanidev.svg'
 
 const assets = {
 	lgvLogo,
@@ -20,6 +22,8 @@ const assets = {
 	qrcode_linkedin_octaviofrangipani,
 	reduxLogo,
 	expressLogo,
+	profilePic,
+	QRcodeFrangipanidev,
 }
 
 export { assets }
