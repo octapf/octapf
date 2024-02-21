@@ -1,8 +1,9 @@
-export { Arrow } from './arrow/Arrow'
-export { Portal } from './portal/Portal'
-export { SectionTitle } from './section-title/SectionTitle'
-export { InfoArticle } from './articles/info-article/InfoArticle'
-export { AboutArticle } from './articles/about-article/AboutArticle'
-export { ExperienceArticle } from './articles/experience-article/ExperienceArticle'
-export { EducationArticle } from './articles/education-article/EducationArticle'
-export { Img } from './img/Img'
+export { Arrow } from './Arrow';
+export { Portal } from './Portal';
+export { SectionTitle } from './SectionTitle';
+export { InfoArticle } from './articles/InfoArticle';
+export { AboutArticle } from './articles/AboutArticle';
+export { ExperienceArticle } from './articles/ExperienceArticle';
+export { EducationArticle } from './articles/EducationArticle';
+export { Img } from './Img';
+export { Nav } from './Nav';

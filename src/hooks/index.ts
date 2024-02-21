@@ -1,1 +1,1 @@
-export { useGetJobDuration } from './useGetJobDuration'
+export { useGetJobDuration } from './useGetJobDuration';

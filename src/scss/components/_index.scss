@@ -1,3 +1,8 @@
-@forward './container';
-@forward './main-content';
-@forward './section';
+@forward './atoms/container';
+@forward './atoms/section';
+
+@forward './molecules/portal';
+
+@forward './organisms/portals';
+@forward './organisms/hero';
+@forward './organisms/main-content';

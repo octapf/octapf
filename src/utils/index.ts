@@ -1,1 +1,2 @@
-export { capitalize } from './capitalize'
+export { capitalize } from './capitalize';
+export { newId } from './newId';

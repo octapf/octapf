@@ -1,7 +1,5 @@
-export { Container } from './container/Container'
-export { ErrorComponent } from './error/ErrorComponent'
-export { Em } from './em/Em'
-export { A } from './a/A'
-export { Section } from '../atoms/section/Section'
-export { Article } from '../atoms/article/Article'
-export { FlexContainer } from '../atoms/flex-container/FlexContainer'
+export { Container, type TContainer } from './Container';
+export { ErrorComponent } from './ErrorComponent';
+export { Section, type TSection } from './Section';
+export { Article, type TArticle } from './Article';
+export { FlexContainer, type TFlexContainer } from './FlexContainer';

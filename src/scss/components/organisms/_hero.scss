@@ -1,0 +1,74 @@
+@use '../../abstracts/' as *;
+@use '../../base/' as *;
+
+.hero-container {
+    height: 90dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    column-gap: 7rem;
+}
+
+.hero-title-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.hero-title {
+    font-size: 5rem;
+    font-weight: 700;
+    color: $text-color;
+}
+.hero-subtitle {
+    color: $text-color;
+    margin-left: 0.2rem;
+}
+
+.hero-logo {
+    width: 20rem;
+    animation-name: spin;
+    -webkit-animation-name: spin;
+    animation-duration: 40000ms;
+    -webkit-animation-duration: 40000ms;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 40000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 40000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    transition: rotate(3600deg);
+    -o-transition: rotate(3600deg);
+}
+
+@-moz-keyframes spin {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
