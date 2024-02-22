@@ -12,7 +12,7 @@
         "preview": "vite preview",
         "test": "vitest",
         "coverage": "vitest --coverage",
-        "sonar": "npm run coverage && npx sonar-scanner -Dsonar.login=196316520986fce161dadfe404cf1816c987ec28"
+        "sonar": "npm run coverage && npx sonar-scanner -Dsonar.login=%SONAR%"
     },
     "dependencies": {
         "@lagaritaverde/ui-library": "^0.3.7",
