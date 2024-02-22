@@ -11,7 +11,8 @@
         "eslint": "npx eslint src --max-warnings 0",
         "preview": "vite preview",
         "test": "vitest",
-        "coverage": "vitest --coverage"
+        "coverage": "vitest --coverage",
+        "sonar": "npm run coverage && npx sonar-scanner -Dsonar.login=196316520986fce161dadfe404cf1816c987ec28"
     },
     "dependencies": {
         "@lagaritaverde/ui-library": "^0.3.7",
@@ -45,6 +46,7 @@
         "jsdom": "^24.0.0",
         "prettier": "^3.2.5",
         "sass": "^1.70.0",
+        "sonar-scanner": "^3.1.0",
         "typescript": "^5.2.2",
         "vite": "^5.0.8",
         "vitest": "^1.2.2"
