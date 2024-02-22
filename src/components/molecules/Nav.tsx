@@ -1,9 +1,23 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { assets } from '../../assets';
 import i18n from '../../i18n';
 
-export const Nav = () => {
+export type TNav = {
+    navData: {
+        logoImg: {
+            src: string;
+            alt: string;
+        };
+        navTitle: string;
+    };
+};
+
+export const Nav = ({
+    navData: {
+        logoImg: { src, alt },
+        navTitle,
+    },
+}: TNav) => {
     const [selectedValue, setSelectedValue] = useState('EN');
 
     const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -14,15 +28,11 @@ export const Nav = () => {
         <nav className="nav">
             <Link to="/">
                 <div className="logo-container">
-                    <img
-                        className="logo"
-                        src={assets.frangipaniDevLogo}
-                        alt="frangipanidev-logo"
-                    />
+                    <img className="logo" src={src} alt={alt} />
                 </div>
             </Link>
             <h2 id="header" className="title-name">
-                Octavio Frangipani
+                {navTitle}
             </h2>
             <select
                 className="language-select"

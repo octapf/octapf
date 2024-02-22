@@ -12,6 +12,7 @@ export default defineConfig({
         coverage: {
             provider: 'v8',
             reporter: ['lcov', 'text'],
+            exclude: ['src/main.tsx', 'src/vite-env.d.ts'],
         },
     },
 });
