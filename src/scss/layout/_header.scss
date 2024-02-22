@@ -1,0 +1,239 @@
+@use '../abstracts/' as *;
+@use '../base/' as *;
+
+.header {
+	display: flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	padding-top: 1rem;
+	text-align: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	justify-items: center;
+	font-family: 'Poiret One', cursive;
+	color: $logo-color;
+	width: $MAX-WIDTH-DESKTOP-HEADER;
+	border: 1px solid green;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+	justify-items: center;
+	justify-content: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	width: 100%;
+}
+
+.logo-container {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+.logo {
+	width: 3rem;
+	height: 3rem;
+}
+
+.title-name {
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 0.3rem;
+	letter-spacing: 0.3em;
+	margin: 0 auto;
+	font-weight: 100;
+}
+
+.language-select {
+	font-family: 'Maven Pro', cursive;
+	font-size: 0.9rem;
+	border-radius: 0.7rem;
+	border: none;
+	color: $text-color;
+	padding: 0.5rem;
+	background-color: $header-darker-color;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+	margin: 0;
+	&:hover {
+		background-color: $header-darker-hover-color;
+		cursor: pointer;
+	}
+	&:focus {
+		outline: none;
+	}
+}
+
+.subtitle-name {
+	font-size: 1.2rem;
+	padding: 0.5rem;
+	text-align: center;
+	letter-spacing: 0.2em;
+	font-weight: bold;
+}
+
+@media (width <= 75rem) {
+	.header {
+		font-family: 'Poiret One', cursive;
+		text-align: center;
+		display: flex;
+		align-items: stretch;
+		align-content: space-between;
+		justify-content: center;
+		justify-items: end;
+		padding-top: 1rem;
+		width: $MAX-WIDTH-TABLET-HEADER;
+	}
+
+	.nav {
+		display: flex;
+		flex-direction: row;
+		align-content: center;
+		justify-items: center;
+		-webkit-box-orient: horizontal;
+		column-gap: 1.5rem;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		align-self: center;
+	}
+
+	.logo {
+		width: 3rem;
+		height: 3rem;
+	}
+
+	.title-name {
+		text-align: center;
+		font-size: 2rem;
+		padding: 0.5rem;
+		font-weight: 100;
+	}
+	.subtitle-name {
+		font-size: 0.8rem;
+		padding: 0.5rem;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.language-select {
+		font-family: 'Maven Pro', cursive;
+		font-size: 0.8rem;
+		border-radius: 0.7rem;
+		padding: 0.5rem;
+		background-color: $header-darker-color;
+		border: none;
+		color: $text-color;
+		display: flex;
+		align-content: center;
+		align-items: center;
+		justify-content: center;
+		justify-items: center;
+		margin: 0;
+	}
+
+	.logo-container {
+		display: flex;
+		align-content: center;
+		align-items: center;
+		justify-content: center;
+		justify-items: center;
+	}
+}
+
+@media (width <= 40rem) {
+	.header {
+		font-family: 'Poiret One', cursive;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		justify-items: end;
+		padding-top: 1rem;
+		width: $MAX-WIDTH-PHONE-HEADER;
+	}
+
+	.nav {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		column-gap: 0.8rem;
+		width: 100%;
+		align-self: center;
+	}
+
+	.logo-container {
+		display: flex;
+		align-content: center;
+		align-items: center;
+		justify-content: center;
+		justify-items: center;
+	}
+
+	.logo {
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+
+	.title-name {
+		font-size: 1.43rem;
+		text-align: center;
+		padding: 0.3rem;
+		font-weight: 100;
+	}
+	.subtitle-name {
+		font-size: 0.7rem;
+		padding: 0.5rem;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.language-select {
+		font-family: 'Maven Pro', cursive;
+		font-size: 0.65rem;
+		border-radius: 0.7rem;
+		padding: 0.7rem 0.2rem;
+		background-color: $header-darker-color;
+		border: none;
+		color: $text-color;
+		display: flex;
+		align-content: center;
+		align-items: center;
+		justify-content: center;
+		justify-items: center;
+		margin: 0;
+	}
+}

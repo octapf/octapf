@@ -1,5 +1,3 @@
-import { Home } from './Home'
-import { Cv } from './Cv'
-import { Errorpage } from './Errorpage'
-
-export { Home, Cv, Errorpage }
+export { Home } from './Home';
+export { Cv } from './Cv';
+export { Errorpage } from './Errorpage';

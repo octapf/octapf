@@ -1,5 +1,3 @@
-import { ErrorComponent } from '../components/atoms'
+import { ErrorComponent } from '../components/atoms';
 
-export const Errorpage = () => {
-	return <ErrorComponent />
-}
+export const Errorpage = () => <ErrorComponent />;

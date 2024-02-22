@@ -1,4 +1,9 @@
-import { Arrow } from './arrow/Arrow'
-import { Portal } from './portal/Portal'
-
-export { Arrow, Portal }
+export { Arrow } from './Arrow';
+export { Portal } from './Portal';
+export { SectionTitle } from './SectionTitle';
+export { InfoArticle } from './articles/InfoArticle';
+export { AboutArticle } from './articles/AboutArticle';
+export { ExperienceArticle } from './articles/ExperienceArticle';
+export { EducationArticle } from './articles/EducationArticle';
+export { Img } from './Img';
+export { Nav } from './Nav';

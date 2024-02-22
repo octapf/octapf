@@ -1,5 +1,75 @@
 @use '../abstracts/' as *;
 
-h1 {
-	color: $lightred;
+html {
+	scroll-behavior: smooth;
+	max-width: $MAX-WIDTH-DESKTOP;
+	margin: auto;
+	font-size: 1.3rem;
+	border: 1px solid red;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	box-sizing: border-box;
+	background-color: $header-container-color;
+}
+
+i {
+	color: $logo-color;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+/* SCROLL BAR */
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+@media (width <= 75rem) {
+	html {
+		scroll-behavior: smooth;
+		max-width: $MAX-WIDTH-TABLET;
+		margin: auto;
+		font-size: 1.2rem;
+		border: 1px solid yellow;
+	}
+}
+
+@media (width <= 40rem) {
+	html {
+		scroll-behavior: smooth;
+		max-width: $MAX-WIDTH-PHONE;
+		margin: auto;
+		font-size: 1.3rem;
+		border: 1px solid green;
+	}
 }

@@ -1,6 +1,5 @@
-import { Container } from './container/Container'
-import { ErrorComponent } from './error/ErrorComponent'
-import { Em } from './em/Em'
-import { A } from './a/A'
-
-export { Container, ErrorComponent, Em, A }
+export { Container, type TContainer } from './Container';
+export { ErrorComponent } from './ErrorComponent';
+export { Section, type TSection } from './Section';
+export { Article, type TArticle } from './Article';
+export { FlexContainer, type TFlexContainer } from './FlexContainer';
