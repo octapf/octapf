@@ -13,6 +13,10 @@
 
 </div>
 
+## About
+
+Senior software engineer with **4+ years** of experience, focused on **frontend architecture** with **React** and **TypeScript**. I design and scale **enterprise SPAs** using **Webpack Module Federation**, shared **NPM** component libraries, and **Next.js** dashboards. I care about **TDD**, **clean code**, **WCAG accessibility**, and turning **Figma** into pixel-perfect UIs. I work closely with UX in **Agile / Kanban** teams and ship with **CI/CD**, **Jest**, and **Cypress**.
+
 ## Technologies
 
 <p align="center">
@@ -29,10 +33,6 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-222b3c?style=flat&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Microfrontends-6a67f3?style=flat&logo=javascript&logoColor=white" alt="Microfrontends" />
 </p>
-
-## About
-
-Senior software engineer with **4+ years** of experience, focused on **frontend architecture** with **React** and **TypeScript**. I design and scale **enterprise SPAs** using **Webpack Module Federation**, shared **NPM** component libraries, and **Next.js** dashboards. I care about **TDD**, **clean code**, **WCAG accessibility**, and turning **Figma** into pixel-perfect UIs. I work closely with UX in **Agile / Kanban** teams and ship with **CI/CD**, **Jest**, and **Cypress**.
 
 <div align="center">
 
