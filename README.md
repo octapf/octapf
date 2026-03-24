@@ -34,8 +34,6 @@
 
 Senior software engineer with **4+ years** of experience, focused on **frontend architecture** with **React** and **TypeScript**. I design and scale **enterprise SPAs** using **Webpack Module Federation**, shared **NPM** component libraries, and **Next.js** dashboards. I care about **TDD**, **clean code**, **WCAG accessibility**, and turning **Figma** into pixel-perfect UIs. I work closely with UX in **Agile / Kanban** teams and ship with **CI/CD**, **Jest**, and **Cypress**.
 
----
-
 <div align="center">
 
 ## MIRALAB — Digital studio & portfolio
