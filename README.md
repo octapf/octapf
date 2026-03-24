@@ -1,7 +1,6 @@
 <div align="center">
 
-<h1 align="center">Senior React Frontend Engineer</h1>
-<h3 align="center">Octavio Frangipani</h3>
+<h1 align="center">Senior React Frontend Engineer<br><span style="font-size: 0.65em; font-weight: normal">Octavio Frangipani</span></h1>
 
 <p align="center">
 <a href="mailto:frangipani.octavio@gmail.com"><img src="https://img.shields.io/badge/Email-frangipani.octavio%40gmail.com-6a67f3?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e293b" alt="Email" /></a><br />
