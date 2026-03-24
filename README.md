@@ -13,8 +13,6 @@
 
 </div>
 
----
-
 ## Technologies
 
 <p align="center">
@@ -31,8 +29,6 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-222b3c?style=flat&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Microfrontends-6a67f3?style=flat&logo=javascript&logoColor=white" alt="Microfrontends" />
 </p>
-
----
 
 ## About
 
