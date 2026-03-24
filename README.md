@@ -3,8 +3,6 @@
 <h1 align="center">Senior React Frontend Engineer</h1>
 <h2 align="center">Octavio Frangipani</h2>
 
----
-
 <p align="center">
 <a href="mailto:frangipani.octavio@gmail.com"><img src="https://img.shields.io/badge/Email-frangipani.octavio%40gmail.com-6a67f3?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e293b" alt="Email" /></a><br />
 <a href="https://www.linkedin.com/in/octaviofrangipani/"><img src="https://img.shields.io/badge/LinkedIn-Octavio%20Frangipani-6a67f3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1e293b" alt="LinkedIn" /></a><br />
