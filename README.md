@@ -10,11 +10,11 @@ Barcelona, Spain
 ---
 
 <p align="center">
-<a href="mailto:frangipani.octavio@gmail.com"><img src="https://img.shields.io/badge/Email-frangipani.octavio%40gmail.com-6366F1?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e293b" alt="Email" /></a><br />
-<a href="https://www.linkedin.com/in/octaviofrangipani/"><img src="https://img.shields.io/badge/LinkedIn-Octavio%20Frangipani-6366F1?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1e293b" alt="LinkedIn" /></a><br />
-<a href="https://wa.me/34722696514"><img src="https://img.shields.io/badge/WhatsApp-%2B34%20722%20696%20514-6366F1?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=1e293b" alt="WhatsApp" /></a><br />
-<a href="https://www.miralab.ar/es"><img src="https://img.shields.io/badge/MIRALAB-Portfolio-6366F1?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=1e293b" alt="MIRALAB portfolio" /></a><br />
-<a href="https://github.com/octapf"><img src="https://img.shields.io/badge/GitHub-%40octapf-6366F1?style=for-the-badge&logo=github&logoColor=white&labelColor=1e293b" alt="GitHub" /></a>
+<a href="mailto:frangipani.octavio@gmail.com"><img src="https://img.shields.io/badge/Email-frangipani.octavio%40gmail.com-6a67f3?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e293b" alt="Email" /></a><br />
+<a href="https://www.linkedin.com/in/octaviofrangipani/"><img src="https://img.shields.io/badge/LinkedIn-Octavio%20Frangipani-6a67f3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1e293b" alt="LinkedIn" /></a><br />
+<a href="https://wa.me/34722696514"><img src="https://img.shields.io/badge/WhatsApp-%2B34%20722%20696%20514-6a67f3?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=1e293b" alt="WhatsApp" /></a><br />
+<a href="https://www.miralab.ar/es"><img src="https://img.shields.io/badge/MIRALAB-Portfolio-6a67f3?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=1e293b" alt="MIRALAB portfolio" /></a><br />
+<a href="https://github.com/octapf"><img src="https://img.shields.io/badge/GitHub-%40octapf-6a67f3?style=for-the-badge&logo=github&logoColor=white&labelColor=1e293b" alt="GitHub" /></a>
 </p>
 
 </div>
@@ -24,17 +24,17 @@ Barcelona, Spain
 ## Technologies
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-222b3c?style=flat&logo=react&logoColor=6666ff" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-6666ff?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Next.js-222b3c?style=flat&logo=next.js&logoColor=6666ff" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Node.js-6666ff?style=flat&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Webpack-222b3c?style=flat&logo=webpack&logoColor=6666ff" alt="Webpack" />
-  <img src="https://img.shields.io/badge/GraphQL-6666ff?style=flat&logo=graphql&logoColor=white" alt="GraphQL" />
-  <img src="https://img.shields.io/badge/Redux-222b3c?style=flat&logo=redux&logoColor=6666ff" alt="Redux" />
-  <img src="https://img.shields.io/badge/Jest-6666ff?style=flat&logo=jest&logoColor=white" alt="Jest" />
-  <img src="https://img.shields.io/badge/Cypress-222b3c?style=flat&logo=cypress&logoColor=6666ff" alt="Cypress" />
-  <img src="https://img.shields.io/badge/Figma-6666ff?style=flat&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-222b3c?style=flat&logo=tailwind-css&logoColor=6666ff" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/React-222b3c?style=flat&logo=react&logoColor=6a67f3" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-6a67f3?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Next.js-222b3c?style=flat&logo=next.js&logoColor=6a67f3" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Node.js-6a67f3?style=flat&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Webpack-222b3c?style=flat&logo=webpack&logoColor=6a67f3" alt="Webpack" />
+  <img src="https://img.shields.io/badge/GraphQL-6a67f3?style=flat&logo=graphql&logoColor=white" alt="GraphQL" />
+  <img src="https://img.shields.io/badge/Redux-222b3c?style=flat&logo=redux&logoColor=6a67f3" alt="Redux" />
+  <img src="https://img.shields.io/badge/Jest-6a67f3?style=flat&logo=jest&logoColor=white" alt="Jest" />
+  <img src="https://img.shields.io/badge/Cypress-222b3c?style=flat&logo=cypress&logoColor=6a67f3" alt="Cypress" />
+  <img src="https://img.shields.io/badge/Figma-6a67f3?style=flat&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-222b3c?style=flat&logo=tailwind-css&logoColor=6a67f3" alt="Tailwind CSS" />
 </p>
 
 ---
