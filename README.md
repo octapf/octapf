@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1 align="center">Senior React Frontend Engineer</h1>
-<h1 align="center">Octavio Frangipani</h1>
+<h2 align="center">Octavio Frangipani</h2>
 
 ---
 
