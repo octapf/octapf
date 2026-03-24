@@ -88,7 +88,17 @@ Calisthenics training app focused on **performance**, modern **UX**, and full-st
 
 ## Top languages
 
-<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs?username=octapf&amp;locale=en&amp;layout=compact&amp;hide_title=true&amp;hide_border=true&amp;langs_count=8&amp;bg_color=0f172a&amp;title_color=f1f5f9&amp;text_color=94a3b8&amp;icon_color=6a67f3&amp;border_radius=20&amp;card_width=900" alt="Language distribution on GitHub" />
+Share of code across **public repositories** (by bytes on GitHub):
+
+| Language | Share |
+| :-- | --: |
+| **TypeScript** | 78.2% |
+| **SCSS** | 8.7% |
+| **JavaScript** | 4.1% |
+| **PowerShell** | 2.8% |
+| **CSS** | 2.7% |
+| **Python** | 2.7% |
+| **HTML** | 0.9% |
 
 <div align="center">
 
