@@ -24,17 +24,17 @@ Barcelona, Spain
 ## Technologies
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-222b3c?style=flat&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/React-222b3c?style=flat&logo=react&logoColor=6666ff" alt="React" />
   <img src="https://img.shields.io/badge/TypeScript-6666ff?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Next.js-222b3c?style=flat&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Next.js-222b3c?style=flat&logo=next.js&logoColor=6666ff" alt="Next.js" />
   <img src="https://img.shields.io/badge/Node.js-6666ff?style=flat&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Webpack-222b3c?style=flat&logo=webpack&logoColor=white" alt="Webpack" />
+  <img src="https://img.shields.io/badge/Webpack-222b3c?style=flat&logo=webpack&logoColor=6666ff" alt="Webpack" />
   <img src="https://img.shields.io/badge/GraphQL-6666ff?style=flat&logo=graphql&logoColor=white" alt="GraphQL" />
-  <img src="https://img.shields.io/badge/Redux-222b3c?style=flat&logo=redux&logoColor=white" alt="Redux" />
+  <img src="https://img.shields.io/badge/Redux-222b3c?style=flat&logo=redux&logoColor=6666ff" alt="Redux" />
   <img src="https://img.shields.io/badge/Jest-6666ff?style=flat&logo=jest&logoColor=white" alt="Jest" />
-  <img src="https://img.shields.io/badge/Cypress-222b3c?style=flat&logo=cypress&logoColor=white" alt="Cypress" />
+  <img src="https://img.shields.io/badge/Cypress-222b3c?style=flat&logo=cypress&logoColor=6666ff" alt="Cypress" />
   <img src="https://img.shields.io/badge/Figma-6666ff?style=flat&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-222b3c?style=flat&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-222b3c?style=flat&logo=tailwind-css&logoColor=6666ff" alt="Tailwind CSS" />
 </p>
 
 ---
