@@ -7,9 +7,9 @@
 
 Barcelona, Spain · `frangipani.octavio@gmail.com` · [+34 722 696 514](https://wa.me/34722696514)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Octavio%20Frangipani-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/octaviofrangipani/)
-[![GitHub](https://img.shields.io/badge/GitHub-@octapf-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/octapf)
-[![MIRALAB](https://img.shields.io/badge/MIRALAB-Portfolio-6366F1?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.miralab.ar/es)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Octavio%20Frangipani-6366F1?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1e293b)](https://www.linkedin.com/in/octaviofrangipani/)
+[![GitHub](https://img.shields.io/badge/GitHub-%40octapf-6366F1?style=for-the-badge&logo=github&logoColor=white&labelColor=1e293b)](https://github.com/octapf)
+[![MIRALAB](https://img.shields.io/badge/MIRALAB-Portfolio-6366F1?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=1e293b)](https://www.miralab.ar/es)
 
 </div>
 
