@@ -35,6 +35,7 @@ Barcelona, Spain
   <img src="https://img.shields.io/badge/Cypress-222b3c?style=flat&logo=cypress&logoColor=white" alt="Cypress" />
   <img src="https://img.shields.io/badge/Figma-6a67f3?style=flat&logo=figma&logoColor=white" alt="Figma" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-222b3c?style=flat&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Microfrontends-6a67f3?style=flat&logo=javascript&logoColor=white" alt="Microfrontends" />
 </p>
 
 ---
