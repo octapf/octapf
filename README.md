@@ -21,7 +21,7 @@ Barcelona, Spain
 
 ---
 
-## Tech I work with
+## Technologies
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" />
