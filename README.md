@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1 align="center">Senior React Frontend Engineer<br><span style="font-size: 0.65em; font-weight: normal">Octavio Frangipani</span></h1>
+<h1 align="center">Senior React Frontend Engineer</h1>
 
 <p align="center">
 <a href="mailto:frangipani.octavio@gmail.com"><img src="https://img.shields.io/badge/Email-frangipani.octavio%40gmail.com-6a67f3?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e293b" alt="Email" /></a><br />
@@ -85,10 +85,6 @@ Calisthenics training app focused on **performance**, modern **UX**, and full-st
 **Stack:** Next.js · TypeScript · E-commerce
 
 [Repository](https://github.com/octapf/proshop) · [Studio](https://www.miralab.ar/es)
-
-## Top languages
-
-<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs?username=octapf&amp;locale=en&amp;layout=compact&amp;hide_title=true&amp;hide_border=true&amp;langs_count=8&amp;bg_color=0f172a&amp;title_color=ffffff&amp;text_color=ffffff&amp;icon_color=6a67f3&amp;border_radius=20&amp;card_width=1300" alt="Language distribution on GitHub" />
 
 <div align="center">
 
