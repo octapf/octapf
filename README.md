@@ -7,27 +7,27 @@
 
 Barcelona, Spain
 
-<table align="center" cellpadding="10" cellspacing="0">
+<table align="center" cellpadding="10" cellspacing="0" width="640">
 <tbody>
 <tr>
-<td align="center" valign="middle" width="50%">
-<a href="mailto:frangipani.octavio@gmail.com"><img src="https://img.shields.io/badge/Email-frangipani.octavio%40gmail.com-6366F1?style=flat-square&logo=gmail&logoColor=white&labelColor=1e293b&logoWidth=14" alt="Email" height="34" /></a>
+<td align="center" valign="middle" width="320">
+<a href="mailto:frangipani.octavio@gmail.com"><img src="https://img.shields.io/badge/Email-frangipani.octavio%40gmail.com-6366F1?style=flat-square&logo=gmail&logoColor=white&labelColor=1e293b" alt="Email" /></a>
 </td>
-<td align="center" valign="middle" width="50%">
-<a href="https://wa.me/34722696514"><img src="https://img.shields.io/badge/WhatsApp-%2B34%20722%20696%20514-6366F1?style=flat-square&logo=whatsapp&logoColor=white&labelColor=1e293b&logoWidth=14" alt="WhatsApp" height="34" /></a>
+<td align="center" valign="middle" width="320">
+<a href="https://wa.me/34722696514"><img src="https://img.shields.io/badge/WhatsApp-%2B34%20722%20696%20514-6366F1?style=flat-square&logo=whatsapp&logoColor=white&labelColor=1e293b" alt="WhatsApp" /></a>
 </td>
 </tr>
 <tr>
-<td align="center" valign="middle" width="50%">
-<a href="https://www.linkedin.com/in/octaviofrangipani/"><img src="https://img.shields.io/badge/LinkedIn-Octavio%20Frangipani-6366F1?style=flat-square&logo=linkedin&logoColor=white&labelColor=1e293b&logoWidth=14" alt="LinkedIn" height="34" /></a>
+<td align="center" valign="middle" width="320">
+<a href="https://www.linkedin.com/in/octaviofrangipani/"><img src="https://img.shields.io/badge/LinkedIn-Octavio%20Frangipani-6366F1?style=flat-square&logo=linkedin&logoColor=white&labelColor=1e293b" alt="LinkedIn" /></a>
 </td>
-<td align="center" valign="middle" width="50%">
-<a href="https://github.com/octapf"><img src="https://img.shields.io/badge/GitHub-%40octapf-6366F1?style=flat-square&logo=github&logoColor=white&labelColor=1e293b&logoWidth=14" alt="GitHub" height="34" /></a>
+<td align="center" valign="middle" width="320">
+<a href="https://github.com/octapf"><img src="https://img.shields.io/badge/GitHub-%40octapf-6366F1?style=flat-square&logo=github&logoColor=white&labelColor=1e293b" alt="GitHub" /></a>
 </td>
 </tr>
 <tr>
 <td align="center" valign="middle" colspan="2">
-<a href="https://www.miralab.ar/es"><img src="https://img.shields.io/badge/MIRALAB-Portfolio-6366F1?style=flat-square&logo=google-chrome&logoColor=white&labelColor=1e293b&logoWidth=14" alt="MIRALAB" height="34" /></a>
+<a href="https://www.miralab.ar/es"><img src="https://img.shields.io/badge/MIRALAB-Portfolio-6366F1?style=flat-square&logo=google-chrome&logoColor=white&labelColor=1e293b" alt="MIRALAB" /></a>
 </td>
 </tr>
 </tbody>
