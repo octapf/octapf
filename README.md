@@ -3,12 +3,12 @@
 <h1 align="center">Senior React Frontend Engineer</h1>
 
 <p align="center">
-<a href="mailto:frangipani.octavio@gmail.com"><img src="https://img.shields.io/badge/Email-frangipani.octavio%40gmail.com-6a67f3?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e293b" alt="Email" /></a><br />
-<a href="https://www.linkedin.com/in/octaviofrangipani/"><img src="https://img.shields.io/badge/LinkedIn-Octavio%20Frangipani-6a67f3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1e293b" alt="LinkedIn" /></a><br />
-<a href="https://wa.me/34722696514"><img src="https://img.shields.io/badge/WhatsApp-%2B34%20722%20696%20514-6a67f3?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=1e293b" alt="WhatsApp" /></a><br />
-<a href="https://www.google.com/maps/search/?api=1&query=Barcelona%2C%20Spain"><img src="https://img.shields.io/badge/CITY-Barcelona%2C%20Spain-6a67f3?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=1e293b" alt="City: Barcelona, Spain" /></a><br />
-<a href="https://www.miralab.ar/es"><img src="https://img.shields.io/badge/MIRALAB-Portfolio-6a67f3?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=1e293b" alt="MIRALAB portfolio" /></a><br />
-<a href="https://github.com/octapf"><img src="https://img.shields.io/badge/GitHub-%40octapf-6a67f3?style=for-the-badge&logo=github&logoColor=white&labelColor=1e293b" alt="GitHub" /></a>
+<a target="_blank" rel="noopener noreferrer" href="mailto:frangipani.octavio@gmail.com"><img src="https://img.shields.io/badge/Email-frangipani.octavio%40gmail.com-6a67f3?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e293b" alt="Email" /></a><br />
+<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/octaviofrangipani/"><img src="https://img.shields.io/badge/LinkedIn-Octavio%20Frangipani-6a67f3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1e293b" alt="LinkedIn" /></a><br />
+<a target="_blank" rel="noopener noreferrer" href="https://wa.me/34722696514"><img src="https://img.shields.io/badge/WhatsApp-%2B34%20722%20696%20514-6a67f3?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=1e293b" alt="WhatsApp" /></a><br />
+<a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Barcelona%2C%20Spain"><img src="https://img.shields.io/badge/CITY-Barcelona%2C%20Spain-6a67f3?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=1e293b" alt="City: Barcelona, Spain" /></a><br />
+<a target="_blank" rel="noopener noreferrer" href="https://www.miralab.ar/es"><img src="https://img.shields.io/badge/MIRALAB-Portfolio-6a67f3?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=1e293b" alt="MIRALAB portfolio" /></a><br />
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/octapf"><img src="https://img.shields.io/badge/GitHub-%40octapf-6a67f3?style=for-the-badge&logo=github&logoColor=white&labelColor=1e293b" alt="GitHub" /></a>
 </p>
 
 </div>
@@ -38,18 +38,18 @@ Senior software engineer with **4+ years** of experience, focused on **frontend 
 
 ## MIRALAB — Digital studio & portfolio
 
-<a href="https://www.miralab.ar/es">
+<a target="_blank" rel="noopener noreferrer" href="https://www.miralab.ar/es">
   <img src="public/logo_miralab.png" alt="MIRALAB logo" width="1100" />
 </a>
 
-*Web & mobile apps, AI-powered solutions, and full-stack delivery — built at [miralab.ar](https://www.miralab.ar/es).*
+*Web & mobile apps, AI-powered solutions, and full-stack delivery — built at <a target="_blank" rel="noopener noreferrer" href="https://www.miralab.ar/es">miralab.ar</a>.*
 
 </div>
 
 ## Featured projects
 
 <div align="center">
-  <a href="https://github.com/octapf/matchpoint">
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/octapf/matchpoint">
     <img src="public/matchpoint-og-v2.jpg" alt="Matchpoint — beach volleyball tournaments" width="800" />
   </a>
 </div>
@@ -58,10 +58,10 @@ Mobile app for **beach volleyball** tournaments — modular architecture and a c
 
 **Stack:** React · TypeScript · API integrations
 
-[Repository](https://github.com/octapf/matchpoint) · [Studio](https://www.miralab.ar/es)
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/octapf/matchpoint">Repository</a> · <a target="_blank" rel="noopener noreferrer" href="https://www.miralab.ar/es">Studio</a>
 
 <div align="center">
-  <a href="https://github.com/octapf/rize">
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/octapf/rize">
     <img src="public/rize-og.jpg" alt="Calisthenics training app" width="800" />
   </a>
 </div>
@@ -70,12 +70,12 @@ Calisthenics training app focused on **performance**, modern **UX**, and full-st
 
 **Stack:** Next.js · TypeScript · Node.js
 
-[Repository](https://github.com/octapf/rize) · [Studio](https://www.miralab.ar/es)
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/octapf/rize">Repository</a> · <a target="_blank" rel="noopener noreferrer" href="https://www.miralab.ar/es">Studio</a>
 
 ### Proshop
 
 <div align="center">
-  <a href="https://github.com/octapf/proshop">
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/octapf/proshop">
     <img src="public/proshop-og.jpg" alt="Proshop — tech e-commerce" width="800" />
   </a>
 </div>
@@ -84,7 +84,7 @@ Calisthenics training app focused on **performance**, modern **UX**, and full-st
 
 **Stack:** Next.js · TypeScript · E-commerce
 
-[Repository](https://github.com/octapf/proshop) · [Studio](https://www.miralab.ar/es)
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/octapf/proshop">Repository</a> · <a target="_blank" rel="noopener noreferrer" href="https://www.miralab.ar/es">Studio</a>
 
 <div align="center">
 
