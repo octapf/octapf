@@ -46,11 +46,7 @@ Senior software engineer with **4+ years** of experience, focused on **frontend 
 
 </div>
 
----
-
 ## Featured projects
-
-### Matchpoint
 
 <div align="center">
   <a href="https://github.com/octapf/matchpoint">
