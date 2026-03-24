@@ -88,7 +88,7 @@ Calisthenics training app focused on **performance**, modern **UX**, and full-st
 
 ## Top languages
 
-<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs?username=octapf&amp;locale=en&amp;layout=compact&amp;hide_title=true&amp;hide_border=true&amp;langs_count=8&amp;bg_color=0f172a&amp;title_color=ffffff&amp;text_color=ffffff&amp;icon_color=6a67f3&amp;border_radius=20&amp;card_width=820" alt="Language distribution on GitHub" />
+<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs?username=octapf&amp;locale=en&amp;layout=compact&amp;hide_title=true&amp;hide_border=true&amp;langs_count=8&amp;bg_color=0f172a&amp;title_color=ffffff&amp;text_color=ffffff&amp;icon_color=6a67f3&amp;border_radius=20&amp;card_width=1300" alt="Language distribution on GitHub" />
 
 <div align="center">
 
