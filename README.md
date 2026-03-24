@@ -5,7 +5,7 @@
 
 **TypeScript · React · Next.js · Microfrontends**
 
-Barcelona, Spain · `frangipani.octavio@gmail.com`
+Barcelona, Spain · `frangipani.octavio@gmail.com` · [+34 722 696 514](https://wa.me/34722696514) (WhatsApp)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Octavio%20Frangipani-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/octaviofrangipani/)
 [![GitHub](https://img.shields.io/badge/GitHub-@octapf-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/octapf)
