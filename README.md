@@ -86,15 +86,9 @@ Calisthenics training app focused on **performance**, modern **UX**, and full-st
 
 [Repository](https://github.com/octapf/proshop) · [Studio](https://www.miralab.ar/es)
 
-<div align="left">
-
 ## Top languages
 
-<br />
-
-<img width="320" src="https://github-readme-stats.vercel.app/api/top-langs?username=octapf&amp;locale=en&amp;layout=donut&amp;hide_title=true&amp;hide_border=true&amp;langs_count=8&amp;bg_color=0f172a&amp;text_color=94a3b8&amp;icon_color=6a67f3&amp;border_radius=20&amp;card_width=320" alt="Language distribution on GitHub" />
-
-</div>
+<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs?username=octapf&amp;locale=en&amp;layout=compact&amp;hide_title=true&amp;hide_border=true&amp;langs_count=8&amp;bg_color=0f172a&amp;title_color=f1f5f9&amp;text_color=94a3b8&amp;icon_color=6a67f3&amp;border_radius=20&amp;card_width=900" alt="Language distribution on GitHub" />
 
 <div align="center">
 
