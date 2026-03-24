@@ -60,8 +60,6 @@ Mobile app for **beach volleyball** tournaments — modular architecture and a c
 
 [Repository](https://github.com/octapf/matchpoint) · [Studio](https://www.miralab.ar/es)
 
----
-
 <div align="center">
   <a href="https://github.com/octapf/rize">
     <img src="public/rize-og.jpg" alt="Calisthenics training app" width="800" />
@@ -73,8 +71,6 @@ Calisthenics training app focused on **performance**, modern **UX**, and full-st
 **Stack:** Next.js · TypeScript · Node.js
 
 [Repository](https://github.com/octapf/rize) · [Studio](https://www.miralab.ar/es)
-
----
 
 ### Proshop
 
