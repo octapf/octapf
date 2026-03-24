@@ -24,17 +24,17 @@ Barcelona, Spain
 ## Technologies
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Webpack-8DD6F9?style=flat&logo=webpack&logoColor=black" alt="Webpack" />
-  <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white" alt="GraphQL" />
-  <img src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white" alt="Redux" />
-  <img src="https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white" alt="Jest" />
-  <img src="https://img.shields.io/badge/Cypress-17202C?style=flat&logo=cypress&logoColor=white" alt="Cypress" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/React-222b3c?style=flat&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-6666ff?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Next.js-222b3c?style=flat&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Node.js-6666ff?style=flat&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Webpack-222b3c?style=flat&logo=webpack&logoColor=white" alt="Webpack" />
+  <img src="https://img.shields.io/badge/GraphQL-6666ff?style=flat&logo=graphql&logoColor=white" alt="GraphQL" />
+  <img src="https://img.shields.io/badge/Redux-222b3c?style=flat&logo=redux&logoColor=white" alt="Redux" />
+  <img src="https://img.shields.io/badge/Jest-6666ff?style=flat&logo=jest&logoColor=white" alt="Jest" />
+  <img src="https://img.shields.io/badge/Cypress-222b3c?style=flat&logo=cypress&logoColor=white" alt="Cypress" />
+  <img src="https://img.shields.io/badge/Figma-6666ff?style=flat&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-222b3c?style=flat&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
 </p>
 
 ---
