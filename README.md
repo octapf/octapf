@@ -7,6 +7,8 @@
 
 Barcelona, Spain
 
+---
+
 <p align="center">
 <a href="mailto:frangipani.octavio@gmail.com"><img src="https://img.shields.io/badge/Email-frangipani.octavio%40gmail.com-6366F1?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e293b" alt="Email" /></a><br />
 <a href="https://www.linkedin.com/in/octaviofrangipani/"><img src="https://img.shields.io/badge/LinkedIn-Octavio%20Frangipani-6366F1?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1e293b" alt="LinkedIn" /></a><br />
