@@ -62,11 +62,9 @@ Mobile app for **beach volleyball** tournaments — modular architecture and a c
 
 ---
 
-### Rize
-
 <div align="center">
   <a href="https://github.com/octapf/rize">
-    <img src="public/rize-og.jpg" alt="Rize — calisthenics training app" width="800" />
+    <img src="public/rize-og.jpg" alt="Calisthenics training app" width="800" />
   </a>
 </div>
 
