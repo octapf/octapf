@@ -92,13 +92,13 @@ Calisthenics training app focused on **performance**, modern **UX**, and full-st
 
 <div align="center">
 
-<p>
-  <img src="https://img.shields.io/badge/⚡-True%20story-6a67f3?style=for-the-badge&amp;labelColor=1e293b&amp;logoColor=white" alt="True story" />
-  <img src="https://img.shields.io/badge/🐛-It%20was%20me%20all%20along-222b3c?style=for-the-badge&amp;labelColor=6a67f3&amp;logoColor=white" alt="It was me all along" />
-</p>
-
-<p><em>“Debugging is like being the detective in a crime movie where you're also the murderer.”</em></p>
-
-<p><sub>Spoiler: you wrote the bug <em>and</em> the alibi · case closed with <code>console.log</code> and caffeine.</sub></p>
+<table>
+  <tr>
+    <td align="center">
+      <strong>💡 Fun fact</strong><br><br>
+      <em>Debugging is like being the detective in a crime movie where you're also the murderer.</em>
+    </td>
+  </tr>
+</table>
 
 </div>
