@@ -86,17 +86,19 @@ Calisthenics training app focused on **performance**, modern **UX**, and full-st
 
 [Repository](https://github.com/octapf/proshop) · [Studio](https://www.miralab.ar/es)
 
-<div align="center">
+<div align="left">
 
 ## Top languages
 
-<p align="center"><em>Most used languages across public repositories</em></p>
+<p><em>Most used languages across public repositories</em></p>
 
 <br />
 
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=octapf&amp;locale=en&amp;layout=compact&amp;hide_border=true&amp;langs_count=8&amp;bg_color=222b3c&amp;title_color=f1f5f9&amp;text_color=94a3b8&amp;icon_color=6a67f3&amp;border_radius=12" alt="Most used languages on GitHub" />
 
-<br /><br />
+</div>
+
+<div align="center">
 
 *Fun fact: Debugging is like being the detective in a crime movie where you're also the murderer.*
 
