@@ -3,11 +3,10 @@
 <h1 align="center">Octavio Frangipani</h1>
 <h1 align="center">Senior React Frontend Engineer</h1>
 
-Barcelona, Spain
-
 ---
 
 <p align="center">
+<a href="https://www.google.com/maps/search/?api=1&query=Barcelona%2C%20Spain"><img src="https://img.shields.io/badge/CITY-Barcelona%2C%20Spain-6a67f3?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=1e293b" alt="City: Barcelona, Spain" /></a><br />
 <a href="mailto:frangipani.octavio@gmail.com"><img src="https://img.shields.io/badge/Email-frangipani.octavio%40gmail.com-6a67f3?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e293b" alt="Email" /></a><br />
 <a href="https://www.linkedin.com/in/octaviofrangipani/"><img src="https://img.shields.io/badge/LinkedIn-Octavio%20Frangipani-6a67f3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1e293b" alt="LinkedIn" /></a><br />
 <a href="https://wa.me/34722696514"><img src="https://img.shields.io/badge/WhatsApp-%2B34%20722%20696%20514-6a67f3?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=1e293b" alt="WhatsApp" /></a><br />
