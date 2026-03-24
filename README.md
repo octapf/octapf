@@ -1,8 +1,7 @@
 <div align="center">
 
-# Octavio Frangipani
-
-<h2 align="center">Senior React Frontend Engineer</h2>
+<h1 align="center">Octavio Frangipani</h1>
+<h1 align="center">Senior React Frontend Engineer</h1>
 
 **TypeScript · React · Next.js · Microfrontends**
 
@@ -13,12 +12,6 @@ Barcelona, Spain · `frangipani.octavio@gmail.com`
 [![MIRALAB](https://img.shields.io/badge/MIRALAB-Portfolio-6366F1?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.miralab.ar/es)
 
 </div>
-
----
-
-## About
-
-Senior software engineer with **4+ years** of experience, focused on **frontend architecture** with **React** and **TypeScript**. I design and scale **enterprise SPAs** using **Webpack Module Federation**, shared **NPM** component libraries, and **Next.js** dashboards. I care about **TDD**, **clean code**, **WCAG accessibility**, and turning **Figma** into pixel-perfect UIs. I work closely with UX in **Agile / Kanban** teams and ship with **CI/CD**, **Jest**, and **Cypress**.
 
 ---
 
@@ -40,12 +33,18 @@ Senior software engineer with **4+ years** of experience, focused on **frontend 
 
 ---
 
+## About
+
+Senior software engineer with **4+ years** of experience, focused on **frontend architecture** with **React** and **TypeScript**. I design and scale **enterprise SPAs** using **Webpack Module Federation**, shared **NPM** component libraries, and **Next.js** dashboards. I care about **TDD**, **clean code**, **WCAG accessibility**, and turning **Figma** into pixel-perfect UIs. I work closely with UX in **Agile / Kanban** teams and ship with **CI/CD**, **Jest**, and **Cypress**.
+
+---
+
 <div align="center">
 
 ## MIRALAB — Digital studio & portfolio
 
 <a href="https://www.miralab.ar/es">
-  <img src="public/logo_miralab.png" alt="MIRALAB logo" width="800" />
+  <img src="public/logo_miralab.png" alt="MIRALAB logo" width="1100" />
 </a>
 
 *Web & mobile apps, AI-powered solutions, and full-stack delivery — built at [miralab.ar](https://www.miralab.ar/es).*
