@@ -86,8 +86,6 @@ Calisthenics training app focused on **performance**, modern **UX**, and full-st
 
 [Repository](https://github.com/octapf/proshop) · [Studio](https://www.miralab.ar/es)
 
----
-
 <div align="center">
 
 ## Top languages
