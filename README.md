@@ -24,17 +24,17 @@ Barcelona, Spain
 ## Technologies
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-222b3c?style=flat&logo=react&logoColor=6a67f3" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-6a67f3?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Next.js-222b3c?style=flat&logo=next.js&logoColor=6a67f3" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Node.js-6a67f3?style=flat&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Webpack-222b3c?style=flat&logo=webpack&logoColor=6a67f3" alt="Webpack" />
-  <img src="https://img.shields.io/badge/GraphQL-6a67f3?style=flat&logo=graphql&logoColor=white" alt="GraphQL" />
-  <img src="https://img.shields.io/badge/Redux-222b3c?style=flat&logo=redux&logoColor=6a67f3" alt="Redux" />
-  <img src="https://img.shields.io/badge/Jest-6a67f3?style=flat&logo=jest&logoColor=white" alt="Jest" />
-  <img src="https://img.shields.io/badge/Cypress-222b3c?style=flat&logo=cypress&logoColor=6a67f3" alt="Cypress" />
-  <img src="https://img.shields.io/badge/Figma-6a67f3?style=flat&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-222b3c?style=flat&logo=tailwind-css&logoColor=6a67f3" alt="Tailwind CSS" />
+  <img src="public/tech/react.svg" alt="React" />
+  <img src="public/tech/typescript.svg" alt="TypeScript" />
+  <img src="public/tech/nextjs.svg" alt="Next.js" />
+  <img src="public/tech/nodejs.svg" alt="Node.js" />
+  <img src="public/tech/webpack.svg" alt="Webpack" />
+  <img src="public/tech/graphql.svg" alt="GraphQL" />
+  <img src="public/tech/redux.svg" alt="Redux" />
+  <img src="public/tech/jest.svg" alt="Jest" />
+  <img src="public/tech/cypress.svg" alt="Cypress" />
+  <img src="public/tech/figma.svg" alt="Figma" />
+  <img src="public/tech/tailwind.svg" alt="Tailwind CSS" />
 </p>
 
 ---
