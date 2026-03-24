@@ -92,6 +92,12 @@ Calisthenics training app focused on **performance**, modern **UX**, and full-st
 
 <div align="center">
 
-*Fun fact: Debugging is like being the detective in a crime movie where you're also the murderer.*
+<p>
+  <img src="https://img.shields.io/badge/Fun%20fact-Debugging%20wisdom-6a67f3?style=for-the-badge&amp;labelColor=1e293b&amp;logoColor=white" alt="Fun fact" />
+</p>
+
+<p>
+  <em>“Debugging is like being the detective in a crime movie where you're also the murderer.”</em>
+</p>
 
 </div>
