@@ -80,23 +80,23 @@ Payment flows with **PayPal** and **Mercado Pago**, OTP and secure authenticatio
   </a>
 </div>
 
-Mobile app for **beach volleyball** tournaments — modular architecture and a clear in-game experience.
+Android app (Google Play) for **beach volleyball** tournaments — invites, two-person teams, divisions, live results — plus a public **Next.js** web viewer.
 
-**Stack:** React · TypeScript · API integrations
+**Stack:** Expo · React Native · TypeScript · Next.js · MongoDB
 
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/octapf/matchpoint">Repository</a> · <a target="_blank" rel="noopener noreferrer" href="https://www.miralab.ar/es">Studio</a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/octapf/matchpoint">Mobile repo</a> · <a target="_blank" rel="noopener noreferrer" href="https://github.com/octapf/matchpoint-web">Web repo</a> · <a target="_blank" rel="noopener noreferrer" href="https://www.miralab.ar/es">Studio</a>
 
 <div align="center">
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/octapf/rize">
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/octapf/rize-mobile">
     <img src="public/rize-og.jpg" alt="Calisthenics training app" width="800" />
   </a>
 </div>
 
 Calisthenics training app focused on **performance**, modern **UX**, and full-stack integration.
 
-**Stack:** Next.js · TypeScript · Node.js
+**Stack:** Expo · React Native · TypeScript · MongoDB
 
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/octapf/rize">Repository</a> · <a target="_blank" rel="noopener noreferrer" href="https://www.miralab.ar/es">Studio</a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/octapf/rize-mobile">Repository</a> · <a target="_blank" rel="noopener noreferrer" href="https://www.miralab.ar/es">Studio</a>
 
 ### Proshop
 
