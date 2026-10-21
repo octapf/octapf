@@ -24,8 +24,11 @@ Full Stack Developer based in **Buenos Aires** (remote, working **CET hours**; p
 Building **IOMETRICS SmartOps®**, an AI platform that helps operations teams investigate incidents with a human always in the loop. Operator console, real-time updates, password and session security, automated alert investigation and accessibility.<br />
 <sub>Next.js · React · TypeScript · Python · FastAPI · PostgreSQL · WebSockets · Playwright</sub>
 
+**Founder & Full Stack Developer · MIRALAB** (self-employed) — Dec 2025 – Present · Buenos Aires (remote)<br />
+My own digital engineering studio: web and mobile apps, AI-powered solutions and consulting. Built **Matchpoint** (Android, Expo / React Native) and **Matchpoint Web** (Next.js).
+
 **Software Engineer · Minsait** — Feb 2024 – May 2026 · Barcelona (remote)<br />
-Modular UI libraries and digital products for global e-commerce brands with **Webpack Module Federation**; **Next.js** dashboards for stock KPIs with **GraphQL** and REST; TDD and E2E testing with **Cypress**.
+Microfrontend system with **Webpack Module Federation** for Zara/Inditex; **Next.js** dashboards for stock KPIs with **Zustand**, **TanStack Query** and **GraphQL**; **+25% faster feature delivery** after introducing AI-assisted development (GitHub Copilot); TDD and E2E testing with **Cypress**.
 
 **Full Stack Developer · Urbany Hostels** — Feb 2023 – Feb 2024 · Barcelona<br />
 SaaS products and **Stripe / PayPal** integrations to improve booking conversion; backend services and custom React hooks.
@@ -45,7 +48,10 @@ Payment flows with **PayPal** and **Mercado Pago**, OTP and secure authenticatio
   <img src="https://img.shields.io/badge/TypeScript-6a67f3?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Next.js-222b3c?style=flat&logo=next.js&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/Node.js-6a67f3?style=flat&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Python-222b3c?style=flat&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/React_Native-222b3c?style=flat&logo=react&logoColor=white" alt="React Native" />
+  <img src="https://img.shields.io/badge/Zustand-6a67f3?style=flat&logo=react&logoColor=white" alt="Zustand" />
+  <img src="https://img.shields.io/badge/TanStack_Query-222b3c?style=flat&logo=reactquery&logoColor=white" alt="TanStack Query" />
+  <img src="https://img.shields.io/badge/Python-6a67f3?style=flat&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/FastAPI-6a67f3?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/PostgreSQL-222b3c?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Webpack-6a67f3?style=flat&logo=webpack&logoColor=white" alt="Webpack" />
