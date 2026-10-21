@@ -30,7 +30,7 @@ Modular UI libraries and digital products for global e-commerce brands with **We
 **Full Stack Developer · Urbany Hostels** — Feb 2023 – Feb 2024 · Barcelona<br />
 SaaS products and **Stripe / PayPal** integrations to improve booking conversion; backend services and custom React hooks.
 
-**Full Stack Developer · Worksut** — Dec 2021 – May 2022 · Barcelona (remote)<br />
+**Full Stack Developer · Worksut** (freelance) — Dec 2021 – May 2022 · Barcelona (remote)<br />
 REST APIs with **Node.js**, SQL and **MongoDB**; **React / Redux** in Scrum teams alongside UX/UI.
 
 **Full Stack Developer · Letizia** (freelance) — Feb 2021 – Jan 2022<br />
