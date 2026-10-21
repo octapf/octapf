@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1 align="center">Senior React Frontend Engineer</h1>
+<h1 align="center">Full Stack Developer · React & TypeScript</h1>
 
 <p align="center">
 <a target="_blank" rel="noopener noreferrer" href="mailto:frangipani.octavio@gmail.com"><img src="https://img.shields.io/badge/Email-frangipani.octavio%40gmail.com-6a67f3?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e293b" alt="Email" /></a><br />
@@ -15,7 +15,27 @@
 
 ## About
 
-Senior software engineer with **4+ years** of experience, focused on **frontend architecture** with **React** and **TypeScript**. I design and scale **enterprise SPAs** using **Webpack Module Federation**, shared **NPM** component libraries, and **Next.js** dashboards. I care about **TDD**, **clean code**, **WCAG accessibility**, and turning **Figma** into pixel-perfect UIs. I work closely with UX in **Agile / Kanban** teams and ship with **CI/CD**, **Jest**, and **Cypress**.
+Full Stack Developer with **5+ years** of experience and a strong **frontend** focus on **React**, **TypeScript** and **Next.js**. Today I build an **AI platform for incident investigation** at **Datadope**, working across the **Next.js** frontend and the **Python / FastAPI / PostgreSQL** backend: real-time UIs over **WebSockets**, security, performance and accessibility. Before that I scaled **enterprise SPAs** with **Webpack Module Federation** and shared component libraries. I care about **TDD**, **clean code**, **WCAG accessibility** and turning **Figma** into pixel-perfect UIs, and I ship with **CI/CD**, **Playwright**, **Jest** and **Cypress** using **AI-assisted workflows**.
+
+## Experience
+
+**Full Stack Developer · Datadope** — May 2026 – Present · Barcelona (remote)<br />
+Building **IOMETRICS SmartOps®**, an AI platform that helps operations teams investigate incidents with a human always in the loop. Operator console, real-time updates, password and session security, automated alert investigation and accessibility.<br />
+<sub>Next.js · React · TypeScript · Python · FastAPI · PostgreSQL · WebSockets · Playwright</sub>
+
+**Software Engineer · Minsait** — Feb 2024 – May 2026 · Barcelona (remote)<br />
+Modular UI libraries and digital products for global e-commerce brands with **Webpack Module Federation**; **Next.js** dashboards for stock KPIs with **GraphQL** and REST; TDD and E2E testing with **Cypress**.
+
+**Full Stack Developer · Urbany Hostels** — Feb 2023 – Feb 2024 · Barcelona<br />
+SaaS products and **Stripe / PayPal** integrations to improve booking conversion; backend services and custom React hooks.
+
+**Full Stack Developer · Worksut** — Dec 2021 – May 2022 · Barcelona (remote)<br />
+REST APIs with **Node.js**, SQL and **MongoDB**; **React / Redux** in Scrum teams alongside UX/UI.
+
+**Full Stack Developer · Letizia** (freelance) — Feb 2021 – Jan 2022<br />
+Payment flows with **PayPal** and **Mercado Pago**, OTP and secure authentication.
+
+<sub>Earlier: Head of Photography at Sodimac (2013 – 2019): e-commerce content pipelines and landing pages.</sub>
 
 ## Technologies
 
@@ -24,14 +44,19 @@ Senior software engineer with **4+ years** of experience, focused on **frontend 
   <img src="https://img.shields.io/badge/TypeScript-6a67f3?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Next.js-222b3c?style=flat&logo=next.js&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/Node.js-6a67f3?style=flat&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Webpack-222b3c?style=flat&logo=webpack&logoColor=white" alt="Webpack" />
-  <img src="https://img.shields.io/badge/GraphQL-6a67f3?style=flat&logo=graphql&logoColor=white" alt="GraphQL" />
-  <img src="https://img.shields.io/badge/Redux-222b3c?style=flat&logo=redux&logoColor=white" alt="Redux" />
+  <img src="https://img.shields.io/badge/Python-222b3c?style=flat&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/FastAPI-6a67f3?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/PostgreSQL-222b3c?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Webpack-6a67f3?style=flat&logo=webpack&logoColor=white" alt="Webpack" />
+  <img src="https://img.shields.io/badge/GraphQL-222b3c?style=flat&logo=graphql&logoColor=white" alt="GraphQL" />
+  <img src="https://img.shields.io/badge/Redux-6a67f3?style=flat&logo=redux&logoColor=white" alt="Redux" />
+  <img src="https://img.shields.io/badge/Playwright-222b3c?style=flat&logo=playwright&logoColor=white" alt="Playwright" />
   <img src="https://img.shields.io/badge/Jest-6a67f3?style=flat&logo=jest&logoColor=white" alt="Jest" />
   <img src="https://img.shields.io/badge/Cypress-222b3c?style=flat&logo=cypress&logoColor=white" alt="Cypress" />
-  <img src="https://img.shields.io/badge/Figma-6a67f3?style=flat&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-222b3c?style=flat&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Microfrontends-6a67f3?style=flat&logo=javascript&logoColor=white" alt="Microfrontends" />
+  <img src="https://img.shields.io/badge/Docker-6a67f3?style=flat&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Figma-222b3c?style=flat&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-6a67f3?style=flat&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Microfrontends-222b3c?style=flat&logo=javascript&logoColor=white" alt="Microfrontends" />
 </p>
 
 <div align="center">
@@ -80,7 +105,7 @@ Calisthenics training app focused on **performance**, modern **UX**, and full-st
   </a>
 </div>
 
-**E-commerce** for tech products — modern shopping UX, performance, and scalable architecture.
+**E-commerce** for tech products — modern shopping UX, performance, and scalable architecture.<br />
 
 **Stack:** Next.js · TypeScript · E-commerce
 
