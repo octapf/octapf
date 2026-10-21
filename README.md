@@ -5,9 +5,9 @@
 <p align="center">
 <a target="_blank" rel="noopener noreferrer" href="mailto:frangipani.octavio@gmail.com"><img src="https://img.shields.io/badge/Email-frangipani.octavio%40gmail.com-6a67f3?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e293b" alt="Email" /></a><br />
 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/octaviofrangipani/"><img src="https://img.shields.io/badge/LinkedIn-Octavio%20Frangipani-6a67f3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1e293b" alt="LinkedIn" /></a><br />
-<a target="_blank" rel="noopener noreferrer" href="https://wa.me/34722696514"><img src="https://img.shields.io/badge/WhatsApp%20ES-%2B34%20722%20696%20514-6a67f3?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=1e293b" alt="WhatsApp Spain" /></a><br />
 <a target="_blank" rel="noopener noreferrer" href="https://wa.me/5491139131406"><img src="https://img.shields.io/badge/WhatsApp%20AR-%2B54%20911%203913%201406-6a67f3?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=1e293b" alt="WhatsApp Argentina" /></a><br />
-<a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Barcelona%2C%20Spain"><img src="https://img.shields.io/badge/CITY-Barcelona%2C%20Spain%20%2F%20Buenos%20Aires%2C%20Argentina-6a67f3?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=1e293b" alt="City: Barcelona, Spain / Buenos Aires, Argentina" /></a><br />
+<a target="_blank" rel="noopener noreferrer" href="https://wa.me/34722696514"><img src="https://img.shields.io/badge/WhatsApp%20ES-%2B34%20722%20696%20514-6a67f3?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=1e293b" alt="WhatsApp Spain" /></a><br />
+<a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Buenos%20Aires%2C%20Argentina"><img src="https://img.shields.io/badge/CITY-Buenos%20Aires%2C%20Argentina%20%C2%B7%20Remote%20(CET%20hours)-6a67f3?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=1e293b" alt="City: Buenos Aires, Argentina · Remote (CET hours)" /></a><br />
 <a target="_blank" rel="noopener noreferrer" href="https://www.miralab.ar/es"><img src="https://img.shields.io/badge/MIRALAB-Portfolio-6a67f3?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=1e293b" alt="MIRALAB portfolio" /></a><br />
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/octapf"><img src="https://img.shields.io/badge/GitHub-%40octapf-6a67f3?style=for-the-badge&logo=github&logoColor=white&labelColor=1e293b" alt="GitHub" /></a>
 </p>
@@ -16,11 +16,11 @@
 
 ## About
 
-Full Stack Developer with **5+ years** of experience and a strong **frontend** focus on **React**, **TypeScript** and **Next.js**. Today I build an **AI platform for incident investigation** at **Datadope**, working across the **Next.js** frontend and the **Python / FastAPI / PostgreSQL** backend: real-time UIs over **WebSockets**, security, performance and accessibility. Before that I scaled **enterprise SPAs** with **Webpack Module Federation** and shared component libraries. I care about **TDD**, **clean code**, **WCAG accessibility** and turning **Figma** into pixel-perfect UIs, and I ship with **CI/CD**, **Playwright**, **Jest** and **Cypress** using **AI-assisted workflows**.
+Full Stack Developer based in **Buenos Aires** (remote, working **CET hours**; previously Barcelona) with **5+ years** of experience and a strong **frontend** focus on **React**, **TypeScript** and **Next.js**. Today I build an **AI platform for incident investigation** at **Datadope**, working across the **Next.js** frontend and the **Python / FastAPI / PostgreSQL** backend: real-time UIs over **WebSockets**, security, performance and accessibility. Before that I scaled **enterprise SPAs** with **Webpack Module Federation** and shared component libraries. I care about **TDD**, **clean code**, **WCAG accessibility** and turning **Figma** into pixel-perfect UIs, and I ship with **CI/CD**, **Playwright**, **Jest** and **Cypress** using **AI-assisted workflows**.
 
 ## Experience
 
-**Full Stack Developer · Datadope** — May 2026 – Present · Barcelona (remote)<br />
+**Full Stack Developer · Datadope** — May 2026 – Present · Buenos Aires (remote)<br />
 Building **IOMETRICS SmartOps®**, an AI platform that helps operations teams investigate incidents with a human always in the loop. Operator console, real-time updates, password and session security, automated alert investigation and accessibility.<br />
 <sub>Next.js · React · TypeScript · Python · FastAPI · PostgreSQL · WebSockets · Playwright</sub>
 
