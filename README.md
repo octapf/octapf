@@ -23,7 +23,7 @@ Senior Full Stack Developer based in **Buenos Aires** (remote, **GMT-3** with fu
 ## Experience
 
 **Full Stack Developer · Datadope** — May 2026 – Nov 2026 · Buenos Aires (remote)<br />
-Built **IOMETRICS SmartOps®**, an AI platform that helps operations teams investigate incidents with a human always in the loop. Operator console, real-time updates, password and session security, automated alert investigation and accessibility.<br />
+Built **IOMETRICS SmartOps®**, an AI platform that helps operations teams investigate incidents with a human always in the loop. Operator console, real-time updates, password and session security, automated alert investigation and accessibility. Helped reshape the team's workflow for **AI-assisted development**: larger end-to-end tasks instead of small Jira tickets, bigger MRs with automated and agent-based reviews, and a rethink of cross-team sync.<br />
 <sub>Next.js · React · TypeScript · Python · FastAPI · PostgreSQL · WebSockets · Playwright</sub>
 
 **Founder & Full Stack Developer · MIRALAB** (self-employed) — Dec 2025 – Present · Buenos Aires (remote)<br />
