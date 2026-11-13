@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1 align="center">Senior Full Stack Developer · React & TypeScript</h1>
+<h1 align="center">Senior Full Stack & AI Engineer · React & TypeScript</h1>
 
 <p align="center">
 <a target="_blank" rel="noopener noreferrer" href="mailto:frangipani.octavio@gmail.com"><img src="https://img.shields.io/badge/Email-frangipani.octavio%40gmail.com-6a67f3?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e293b" alt="Email" /></a><br />
@@ -16,7 +16,7 @@
 
 ## About
 
-Senior Full Stack Developer based in **Buenos Aires** (remote, **GMT-3** with full US overlap; previously Barcelona) with **5+ years** of experience and a strong **frontend** focus on **React**, **TypeScript** and **Next.js**. Most recently I built an **AI platform for incident investigation** at **Datadope**, working across the **Next.js** frontend and the **Python / FastAPI / PostgreSQL** backend: real-time UIs over **WebSockets**, security, performance and accessibility. Before that I scaled **enterprise SPAs** with **Webpack Module Federation** and shared component libraries. I care about **TDD**, **clean code**, **WCAG accessibility** and turning **Figma** into pixel-perfect UIs, and I ship with **CI/CD**, **Playwright**, **Jest** and **Cypress** using **AI-assisted workflows**.
+Senior Full Stack & AI Engineer based in **Buenos Aires** (remote, **GMT-3** with full US overlap; previously Barcelona) with **5+ years** of experience and a strong **frontend** focus on **React**, **TypeScript** and **Next.js**. Most recently I built an **AI platform for incident investigation** at **Datadope**, working across the **Next.js** frontend and the **Python / FastAPI / PostgreSQL** backend: real-time UIs over **WebSockets**, security, performance and accessibility. Before that I scaled **enterprise SPAs** with **Webpack Module Federation** and shared component libraries. I care about **TDD**, **clean code**, **WCAG accessibility** and turning **Figma** into pixel-perfect UIs, and I ship with **CI/CD**, **Playwright**, **Jest** and **Cypress** using **AI-assisted workflows**.
 
 **EU citizen** (Italian passport) · **Open to remote contract and full-time roles.**
 
@@ -26,7 +26,7 @@ Senior Full Stack Developer based in **Buenos Aires** (remote, **GMT-3** with fu
 Built **IOMETRICS SmartOps®**, an AI platform that helps operations teams investigate incidents with a human always in the loop. Operator console, real-time updates, password and session security, automated alert investigation and accessibility. Helped reshape the team's workflow for **AI-assisted development**: larger end-to-end tasks instead of small Jira tickets, bigger MRs with automated and agent-based reviews, and a rethink of cross-team sync.<br />
 <sub>Next.js · React · TypeScript · Python · FastAPI · PostgreSQL · WebSockets · Playwright</sub>
 
-**Founder & Full Stack Developer · MIRALAB** (self-employed) — Dec 2025 – Present · Buenos Aires (remote)<br />
+**Founder · Full Stack & AI Engineer · MIRALAB** (self-employed) — Dec 2025 – Present · Buenos Aires (remote)<br />
 My own digital engineering studio: web and mobile apps, AI-powered solutions and consulting. Built **Matchpoint** (Android, Expo / React Native) and **Matchpoint Web** (Next.js).
 
 **Software Engineer · Minsait** — Feb 2024 – Feb 2026 · Barcelona (remote)<br />
