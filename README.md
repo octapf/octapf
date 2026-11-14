@@ -27,7 +27,7 @@ Built **IOMETRICS SmartOps®**, an AI platform that helps operations teams inves
 <sub>Next.js · React · TypeScript · Python · FastAPI · PostgreSQL · WebSockets · Playwright</sub>
 
 **Founder · Full Stack & AI Engineer · MIRALAB** (self-employed) — Dec 2025 – Present · Buenos Aires (remote)<br />
-My own digital engineering studio: web and mobile apps, AI-powered solutions and consulting. Built **Matchpoint** (Android, Expo / React Native) and **Matchpoint Web** (Next.js).
+My own digital engineering studio: web and mobile apps, AI-powered solutions and consulting. Built **Matchpoint** (Android, Expo / React Native), **Matchpoint Web** (Next.js), **Changa** (Expo + Next.js + Supabase, with a Claude-powered WhatsApp assistant) and the **Miralab app** (Android, Expo, with an AI assistant behind a Next.js API).
 
 **Software Engineer · Minsait** — Feb 2024 – Feb 2026 · Barcelona (remote)<br />
 Microfrontend system with **Webpack Module Federation** for Zara/Inditex; **Next.js** dashboards for stock KPIs with **Zustand**, **TanStack Query** and **GraphQL**; **+25% faster feature delivery** after introducing AI-assisted development (GitHub Copilot); TDD and E2E testing with **Cypress**.
